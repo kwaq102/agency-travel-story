@@ -1,0 +1,70 @@
+header {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    div.bg-photo img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+    }
+
+    .header-logo {
+        display: flex;
+        position: relative;
+        width: 100%;
+        margin: 1% 0 10px;
+
+        .header-contact {
+            width: 1200px;
+            height: 72px;
+            margin: 0 auto;
+            font-size: 18px;
+            color: white;
+
+            p:nth-child(1) {
+                margin-top: 30px;
+            }
+        }
+
+        .logo {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+
+
+            img {
+                width: 30%;
+            }
+        }
+    }
+
+
+    div.header-text {
+        position: absolute;
+        width: 100%;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+
+        h1 {
+            font-size: 68px;
+        }
+
+        h3 {
+            width: 100%;
+            margin-top: 15px;
+            font-size: 26px;
+        }
+    }
+
+}
