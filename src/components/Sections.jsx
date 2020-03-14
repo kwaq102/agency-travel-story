@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutUs from './AboutUs'
+import Offer from './Offer'
 
 
 const Sections = () => {
@@ -7,8 +8,8 @@ const Sections = () => {
         <>
             <div>
                 <AboutUs />
-                <section>2</section>
-                <section>3</section>
+                <Offer />
+                <WhyUs />
             </div>
         </>
     );
