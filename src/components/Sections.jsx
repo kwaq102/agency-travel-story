@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutUs from './AboutUs'
 import Offer from './Offer'
+import WhyUs from './WhyUs'
 
 
 const Sections = () => {
@@ -10,6 +11,12 @@ const Sections = () => {
                 <AboutUs />
                 <Offer />
                 <WhyUs />
+
+                {/* jakis cytat */}
+                {/* oferta szczegłówa*/}
+                {/* nasz zespół*/}
+
+
             </div>
         </>
     );

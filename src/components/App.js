@@ -5,16 +5,21 @@ import Sections from './Sections';
 import Footer from './Footer';
 
 function App() {
-  return (
-    <>
-      <div className="App">
+  return ( <
+    >
+    <
+    div className = "App" >
 
-        <Header />
-        <Sections />
-        <Footer />
+    <
+    Header / >
+    <
+    Sections / >
+    <
+    Footer / >
 
-      </div>
-    </>
+    <
+    /div> <
+    />
   );
 }
 
