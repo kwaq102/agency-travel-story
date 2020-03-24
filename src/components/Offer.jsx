@@ -26,7 +26,7 @@ const Offer = () => {
                         <p></p>
                         <button>Dowiedz się więcej</button>
                     </div>
-                    <div className="pilgrimage">
+                    <div className="pilgrimages">
                         <img src={pilgrimage} alt="" />
                         <h5>Pielgrzymki</h5>
                         <p></p>

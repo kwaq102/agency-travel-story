@@ -27,21 +27,21 @@ const WhyUs = () => {
                                 <div><i class="fas fa-chevron-up"></i></div>
                                 <h4> najwyższa jakość usług</h4>
                             </div>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti sunt, dolor ducimus facere, velit consequuntur aut nemo corporis repellat ipsa optio officia doloremque. Autem quasi magnam cupiditate ratione perspiciatis perferendis!</p>
+                            <p>Świadczymy usługi na najwyższym poziomie. Współpracujemy z najlepszymi kontrahentami, hotelami, pilotami oraz przewodnikami. Wszystkie czynniki, mające wpływ na nasze usługi dobierane są z największą starannością i dbałością o każdy detal. Nad planem Państwa wyprawy, pracują doświadczeni profesjonaliści, którzy wkładają całe serce, aby Państwa podróż była udana. </p>
                         </div>
                         <div>
                             <div className="arrow">
                                 <div><i class="fas fa-chevron-up"></i></div>
                                 <h4>rozumiemy potrzeby klientów/a</h4>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime architecto, voluptates inventore asperiores eveniet quasi quos sit voluptatum magni alias exercitationem eum atque modi est earum. Possimus deleniti quaerat omnis?</p>
+                            <p>Zespół Travel Story tworzą ludzie zajmujący się turystyką od zawsze. Od wielu lat pracujemy z ludźmi, obsługujemy grupy i lata pracy pozwoliły nam dokładnie poznać i zrozumieć potrzeby naszych Klientów. Nasze programy układamy w taki sposób, aby z każdego dnia wycisnąć jak najwięcej, żeby pokazać Państwu wszystko co najważniejsze, ale żeby nie zabrakło również czasu na prywatne obserwacje, zjedzenie dobrego lunchu czy wypicie aromatycznej kawy w przytulnej kawiarence. Jesteśmy elastyczni i potrafimy słuchać. Jesteśmy otwarci na Państwa propozycje. Liczą się dla nas ludzie, a nie, zaliczone punkty. Sami jesteśmy podróżnikami i doskonale wiemy z czym to się je. </p>
                         </div>
                         <div>
                             <div className="arrow">
                                 <div><i class="fas fa-chevron-up"></i></div>
                                 <h4>doświadczona kadra</h4>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, ducimus magnam! Libero dicta enim similique inventore, veritatis ipsum veniam in consequatur, error odio quam. Ipsa fugiat expedita ab natus tempore!</p>
+                            <p>Travel Story powstało z wielkiej pasji do podróży. Od zawsze podróżowaliśmy po najróżniejszych zakątach Europy i świata. Miejsca, w które Państwa zabieramy, odwiedziliśmy wielokrotnie i doskonale je znamy. Wiemy, co warto zobaczyć, gdzie zjeść, co kupić. Mamy wieloletnie doświadczenie w planowaniu i organizacji podróży, oraz w ich pilotowaniu. Zabieramy Państwa w miejsca, które kochamy, czasami traktujemy jak drugi dom, dzielimy się z Państwem naszą pasją. Mimo naszego doświadczenia, nigdy nie działamy schematycznie. I choćbyśmy jechali w dane miejsce setny raz, to każda podróż jest dla nas nowym wyzwaniem i wspaniałym przeżyciem. </p>
                         </div>
                     </div>
 

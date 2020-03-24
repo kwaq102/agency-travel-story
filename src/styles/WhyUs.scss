@@ -6,14 +6,14 @@ section.whyUs {
 
     div {
         display: flex;
-        justify-content: center;
+
 
         .whyUs-photos {
             position: relative;
 
             .eiffla {
+                height: 500px;
                 margin-right: 150px;
-
                 -webkit-box-shadow: 0px 0px 37px 6px rgba(0, 0, 0, 0.75);
                 -moz-box-shadow: 0px 0px 37px 6px rgba(0, 0, 0, 0.75);
                 box-shadow: 0px 0px 37px 6px rgba(0, 0, 0, 0.75);
@@ -55,28 +55,24 @@ section.whyUs {
                     margin-bottom: 20px;
                     border-bottom: 1px solid rgba(0, 0, 0, .1);
 
-
-
                     div {
                         width: 50px;
                         height: 50px;
                         background: #fff;
                         border-radius: 50%;
                         margin-right: 20px;
-
                         -webkit-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
                         -moz-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
                         box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
 
                         i.fas {
+                            line-height: 50px;
                             font-size: 15px;
                             color: #43b1c9;
                             text-align: center;
                             transform: rotate(90deg);
                             transition: .3s;
                         }
-
-
                     }
 
                     h4 {
@@ -95,6 +91,14 @@ section.whyUs {
                             transform: rotate(180deg);
                         }
                     }
+                }
+
+                p {
+                    margin-bottom: 20px;
+                    font-size: 14px;
+                    text-align: justify;
+                    line-height: 150%;
+                    color: rgba(0, 0, 0, 0.8);
                 }
 
             }
