@@ -7,6 +7,7 @@ import Tours from './Tours'
 import Pilgrimage from './Pilgrimage'
 import CityBreak from './CityBreak'
 import Camp from './Camp'
+import OurTeam from './OurTeam'
 
 
 const Sections = () => {
@@ -21,8 +22,8 @@ const Sections = () => {
                 <CityBreak />
                 <Camp />
                 <Pilgrimage />
+                <OurTeam />
 
-                {/* nasz zespół*/}
 
 
             </div>

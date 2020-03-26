@@ -8,6 +8,7 @@ import prague from '../img/prague.jpg';
 import rome from '../img/rome-city.jpg';
 import vienna from '../img/vienna.jpg';
 import madrid from '../img/madrid.jpg';
+import berlin from '../img/berlin.jpg';
 
 import { Route, Switch, Link } from 'react-router-dom';
 
@@ -121,6 +122,22 @@ const CityBreak = () => {
                         <h2>Elegancki Madryt</h2>
                         <h3>jakiś tam cytat</h3>
                         <p> Z Madrytu do nieba, a w niebie dziurka, by móc go oglądać<span>powiedzenie powstałe w czasach króla Karola III </span></p>
+
+                        <button>
+                            <a href="">Czytaj więcej</a>
+                            {/* <Link to="/spain">czytaj więcej</Link> */}
+                        </button>
+
+                        {/* <Route path="/spain" component={Spain} /> */}
+                    </div>
+
+                    <div className="berlin">
+                        <div className="cities-photo">
+                            <img src={berlin} alt="" />
+                        </div>
+                        <h2>Kosmopolityczny Berlin</h2>
+                        <h3>jakiś tam cytat</h3>
+                        <p>Berlin berlin.......................... <span>ktoś mądry</span></p>
 
                         <button>
                             <a href="">Czytaj więcej</a>

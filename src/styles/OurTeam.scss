@@ -1,0 +1,108 @@
+section.our-team {
+    width: 800px;
+    margin: 0 auto;
+
+    h1 {
+        margin: 40px 0 10px 0;
+        font-size: 48px;
+        color: #43b1c9;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    h3 {
+        width: 600px;
+        margin: 0 auto 30px;
+        text-align: center;
+        font-weight: 300;
+        font-size: 16px;
+        font-style: italic;
+
+        span {
+            font-style: normal;
+        }
+    }
+
+    div {
+
+        div {
+            display: flex;
+            margin-bottom: 20px;
+            // padding-bottom: 10px;
+            border-bottom: 1px solid #43b1c9;
+
+
+
+            div {
+                flex-direction: column;
+                border: none;
+
+                div {
+                    border: none;
+
+                    img {
+                        display: block;
+                        width: 250px;
+                    }
+                }
+
+                h4 {
+                    margin: 10px auto;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                }
+
+            }
+
+            p {
+                margin-left: 40px;
+                font-size: 16px;
+                line-height: 150%;
+                text-align: justify;
+                letter-spacing: 1px;
+            }
+        }
+
+        div.right {
+            flex-direction: row-reverse;
+
+            p {
+                margin-left: 0;
+                margin-right: 40px;
+            }
+        }
+
+        div.maja-marta {
+            flex-direction: column;
+
+            div.centre {
+                margin: 0;
+
+                div {
+                    flex-direction: row;
+                    justify-content: center;
+                    padding: 0 40px;
+
+                    img {
+                        max-height: 200px;
+                    }
+                }
+
+                h4 {
+                    // margin: 0    ;
+                }
+            }
+
+            p {
+                margin: 0 0 20px 0;
+            }
+        }
+
+        div.ola {
+            border: none
+        }
+
+    }
+
+
+}

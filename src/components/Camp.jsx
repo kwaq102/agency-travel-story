@@ -3,7 +3,7 @@ import '../styles/Camp.scss';
 
 // import spain from '../img/spain.jpg';
 
-import { Route, Switch, Link } from 'react-router-dom';
+// import { Route, Switch, Link } from 'react-router-dom';
 
 
 const Tours = () => {
