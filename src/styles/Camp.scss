@@ -1,25 +1,32 @@
 section.camp {
-    width: 1200px;
-    margin: 0 auto 50px auto;
+
+    position: relative;
 
     h1 {
+        width: 50%;
         margin: 40px 0;
+        position: absolute;
+        top: 0;
+        left: 0;
         font-size: 48px;
         color: #43b1c9;
         text-align: center;
         font-weight: 400;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     }
 
     div {
+        width: 1200px;
+        margin: 20px auto 50px auto;
+        padding-top: 150px;
         display: flex;
         flex-basis: 350px;
-        margin: 20px 10px;
         justify-content: space-around;
         flex-wrap: wrap;
 
         div {
             display: flex;
-            padding-bottom: 20px;
+            padding: 0 0 20px 0;
             flex-direction: column;
             justify-content: space-between;
             -webkit-box-shadow: 0px 0px 14px -2px rgba(0, 0, 0, 0.75);
@@ -28,7 +35,7 @@ section.camp {
             overflow: hidden;
 
 
-            .tour-photo {
+            .camp-photo {
                 width: 350px;
                 max-height: 200px;
                 padding: 0;
@@ -115,7 +122,7 @@ section.camp {
         }
 
         div:hover {
-            .tour-photo {
+            .camp-photo {
                 img {
                     transform: translate(-50%, -50%) scale(1.1);
                 }

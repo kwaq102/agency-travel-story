@@ -1,15 +1,23 @@
  section.section-pilgrimage {
      padding: 40px calc((100% - 1200px) / 2) 80px calc((100% - 1200px) / 2);
      background-color: #eff3f8;
+     position: relative;
 
      h1 {
+         width: 50%;
+         margin: 40px 0;
+         position: absolute;
          font-size: 48px;
          color: #43b1c9;
          text-align: center;
          font-weight: 400;
+         top: 0;
+         right: 0;
+         border-bottom: 1px solid rgba(0, 0, 0, 0.3);
      }
 
      div {
+         padding-top: 100px;
          display: flex;
          flex-basis: 350px;
          margin: 20px 10px;
@@ -19,6 +27,7 @@
 
          div {
              display: flex;
+             padding-top: 0;
              padding-bottom: 20px;
              flex-direction: column;
              justify-content: space-between;

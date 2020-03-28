@@ -12,21 +12,53 @@ nav {
         transform: translateX(-50%);
         border-top: 1px solid rgba(255, 255, 255, .3);
         border-bottom: 1px solid rgba(255, 255, 255, .3);
-        ;
     }
 
 
     li {
         flex-grow: 1;
-        font-size: 32px;
         list-style: none;
         text-align: center;
+        font-size: 32px;
 
         a {
+            font-size: 22px;
             text-decoration: none;
             color: white;
-
+            transition: .3s;
         }
 
+        a:hover {
+            font-size: 26px;
+        }
+    }
+
+    .travel-list {
+        position: relative;
+
+        ul {
+            display: none;
+            width: 100%;
+            margin: 0;
+            position: absolute;
+            top: 40px;
+            left: 50%;
+            transform: translate(-50%, 0);
+            border: none;
+
+            li {}
+        }
+    }
+
+    .travel-list:hover {
+
+        ul {
+            display: block;
+            width: 300px;
+            top: 40px;
+            transform: translate(-50%, 0);
+
+            li {}
+        }
     }
 }

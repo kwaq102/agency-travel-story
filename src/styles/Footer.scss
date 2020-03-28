@@ -1,7 +1,150 @@
-// background-image: url('../img/vintage-wallpaper.png');
-
 footer {
-    width: 100%;
-    min-height: 800px;
+    padding: 40px 0 0 0;
     background-image: url('../img/vintage-wallpaper.png');
+
+    div {
+        display: flex;
+        justify-content: center;
+        margin: 0 40px;
+
+        .footer-left {
+            width: 200px;
+
+            div {
+
+                img {
+                    display: block;
+                    max-height: 161px;
+                    // margin-top: calc(320px/2 - 161px/2);
+                }
+            }
+        }
+
+        .footer-centre {
+            display: block;
+            width: 360px;
+
+            .footer-nav {
+                display: flex;
+
+                .footer-list-right,
+                .footer-list-left {
+                    flex-direction: column;
+                    border: none;
+                    position: static;
+                    transform: translateX(0%);
+
+                    li::before {
+                        width: 17px;
+                        margin-right: 10px;
+                        display: inline-block;
+                        vertical-align: middle;
+                        content: '';
+                        height: 5px;
+                        border-top: 2px solid #43b1c9;
+                        transition: .5s;
+                    }
+
+                    li {
+                        text-align: left;
+                        font-size: 12px;
+                        padding: 8px 0;
+
+                        a {
+                            font-size: 12px;
+                        }
+                    }
+
+                    li:hover::before {
+                        width: 35px;
+
+                    }
+                }
+
+            }
+        }
+
+        .footer-right {
+            width: 400px;
+            display: flex;
+
+            .contact {
+                display: block;
+
+                p {
+                    width: 100%;
+                    margin: 15px 0;
+                    font-size: 14px;
+                    color: white;
+                    letter-spacing: 1px;
+                    line-height: 150%;
+                }
+
+                span {
+                    margin-top: 16px;
+                    margin-right: 20px;
+                    color: white;
+
+                    i {
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .socials {
+                flex-direction: column;
+
+                a {
+                    padding: 5px;
+
+                    i {
+                        font-size: 30px;
+                        color: white;
+                    }
+
+                    .fa-facebook-square:hover {
+                        color: #4267b2;
+                    }
+
+                    .fa-twitter-square:hover {
+                        color: #1da1f2;
+                    }
+
+                    .fa-instagram-square:hover {
+                        color: black;
+                    }
+
+                    .fa-linkedin:hover {
+                        color: #0077b5;
+                        ;
+                    }
+
+
+
+
+                }
+            }
+        }
+
+    }
+
+    .copyright {
+        display: block;
+        margin: 20px 0 0 0;
+        padding: 0;
+        background-color: #000;
+        color: white;
+        // font-size: 0px;
+
+        p {
+            display: block;
+            padding: 10px 0px;
+            font-size: 12px;
+            text-align: center;
+
+            span {
+                padding-left: 5px;
+            }
+        }
+    }
 }
