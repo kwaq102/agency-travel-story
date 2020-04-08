@@ -13,7 +13,7 @@ import ola from '../img/ola.jpg';
 const OurTeam = () => {
     return (
         <>
-            <section className="our-team">
+            <section className="our-team" id="ourTeam">
 
                 <h1>Poznaj nasz zespół</h1>
                 <h3>Kiedy załapiesz bakcyla podróżowania, nie ma na to żadnego lekarstwa. Już wiem, że będę szczęśliwie chory do końca życia. <span> Michael Palins</span></h3>

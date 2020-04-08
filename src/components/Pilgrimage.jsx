@@ -10,7 +10,7 @@ import { Route, Switch, Link } from 'react-router-dom';
 const Pilgrimage = () => {
     return (
         <>
-            <section className="section-pilgrimage">
+            <section className="section-pilgrimage" id="pilgrimage">
                 <h1>Pielgrzymki</h1>
                 <div>
                     <div className="pilgrimage-italy">

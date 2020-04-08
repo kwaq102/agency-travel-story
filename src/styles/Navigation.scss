@@ -26,6 +26,7 @@ nav {
             text-decoration: none;
             color: white;
             transition: .3s;
+            cursor: pointer;
         }
 
         a:hover {
@@ -45,8 +46,6 @@ nav {
             left: 50%;
             transform: translate(-50%, 0);
             border: none;
-
-            li {}
         }
     }
 
@@ -58,7 +57,6 @@ nav {
             top: 40px;
             transform: translate(-50%, 0);
 
-            li {}
         }
     }
 }

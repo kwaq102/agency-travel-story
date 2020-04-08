@@ -11,7 +11,7 @@ import baltic from '../img/baltic.jpg';
 const Tours = () => {
     return (
         <>
-            <section className="camp">
+            <section className="camp" id="camp">
 
                 <h1>Obozy młodzieżowe</h1>
 

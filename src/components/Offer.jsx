@@ -10,7 +10,7 @@ import pilgrimage from '../img/pielgrzymka.jpg';
 const Offer = () => {
     return (
         <>
-            <section className="offer">
+            <section className="offer" id="offer">
                 <h1>Nasz oferta</h1>
                 <div>
                     <div className="trip">

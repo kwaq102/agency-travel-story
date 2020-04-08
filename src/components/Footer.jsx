@@ -6,8 +6,7 @@ import '../styles/Footer.scss';
 const Footer = () => {
     return (
         <footer>
-
-            <div>
+            <div id="footer">
                 <div className="footer-left">
                     <div><img src={logo} alt="" /></div>
                 </div>
@@ -56,7 +55,7 @@ const Footer = () => {
 
             <div class="copyright">
                 <p>Projekt i wykonanie strony Kamil Gajewski <span>webgajewski@gmail.com</span></p>
-                <p>&copy; 2019 Wszystkie prawa zastrzeżone</p>
+                <p>&copy; 2020 Wszystkie prawa zastrzeżone</p>
             </div>
 
         </footer >

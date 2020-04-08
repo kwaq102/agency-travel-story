@@ -8,6 +8,11 @@ section.aboutUs {
         color: #43b1c9;
         text-align: center;
         font-weight: 400;
+        transform: scale(1);
+    }
+
+    h1.active {
+        transform: scale(1);
     }
 
     div {

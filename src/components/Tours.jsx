@@ -15,7 +15,7 @@ import Spain from "./Spain"
 const Tours = () => {
     return (
         <>
-            <section className="tours">
+            <section className="tours" id="tours">
                 <h1>Wycieczki</h1>
                 <div>
                     <div className="spain">

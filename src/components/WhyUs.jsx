@@ -12,7 +12,7 @@ import unforgettable from '../img/unforgettable.png';
 const WhyUs = () => {
     return (
         <>
-            <section className="whyUs">
+            <section className="whyUs" id="whyUs">
 
                 <div>
                     <div className="whyUs-photos">

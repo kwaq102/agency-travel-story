@@ -1,38 +1,128 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Link } from 'react-scroll';
 import '../styles/Navigation.scss'
 
-class Navigation extends Component {
-    state = {
+const Navigation = () => {
 
-    }
-    render() {
-        return (
-            <div>
-                <nav>
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">O nas</a></li>
-                        <li><a href="">Oferta</a></li>
-                        <li><a href="">Zalety</a></li>
+    return (
+        <div>
+            <nav>
+                <ul>
+                    <li>
+                        <Link
+                            activeClass="active"
+                            to="header"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={500}
+                        >Home</Link>
+                    </li>
+                    <li>
+                        <Link
+                            activeClass="active"
+                            to="aboutUs"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={400}
+                        >O nas</Link>
+                    </li>
 
-                        <li className="travel-list">
-                            <a href="">Podróże</a>
-                            <ul>
-                                <li><a href="">Wycieczki</a></li>
-                                <li><a href="">City Break</a></li>
-                                <li><a href="">Obozy młodzieżowe</a></li>
-                                <li><a href="">Pielgrzymki</a></li>
-                            </ul>
-                        </li>
+                    <li>
+                        <Link
+                            activeClass="active"
+                            to="offer"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={500}
+                        >Oferta</Link>
+                    </li>
+                    <li>
+                        <Link
+                            activeClass="active"
+                            to="whyUs"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={500}
+                        >Zalety</Link></li>
+
+                    <li className="travel-list">
+                        <a>Podróże</a>
+                        <ul>
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="tours"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={600}
+                                >Wycieczki</Link>
+                            </li>
+
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="city-break"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={600}
+                                >City break</Link>
+                            </li>
+
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="camp"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={700}
+                                >Obozy młodzieżowe</Link>
+                            </li>
+
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="pilgrimage"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={700}
+                                >Pielgrzymki</Link></li>
+                        </ul>
+                    </li>
 
 
-                        <li><a href="">Nasz zespół</a></li>
-                        <li><a href="">Kontakt</a></li>
-                    </ul>
-                </nav>
-            </div>
-        );
-    }
+                    <li>
+                        <Link
+                            activeClass="active"
+                            to="ourTeam"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={800}
+                        >Nasz zespół</Link>
+                    </li>
+                    <li>
+                        <Link
+                            activeClass="active"
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={800}
+                        >Kontakt</Link>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    );
+
 }
 
 export default Navigation;
