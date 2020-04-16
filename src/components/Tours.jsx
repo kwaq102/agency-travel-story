@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/Tours.scss';
+import Fade from 'react-reveal/Fade';
+
 
 import spain from '../img/spain.jpg';
 import barcelona from '../img/barcelona.jpg';
@@ -16,7 +18,7 @@ const Tours = () => {
     return (
         <>
             <section className="tours" id="tours">
-                <h1>Wycieczki</h1>
+                <Fade left cascade><h1>Wycieczki</h1></Fade>
                 <div>
                     <div className="spain">
                         <div className="tour-photo">

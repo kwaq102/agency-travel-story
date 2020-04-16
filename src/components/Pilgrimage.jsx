@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/Pilgrimage.scss';
+import Fade from 'react-reveal/Fade';
+
 
 import italy from '../img/pielgrzymka-glowna.jpg';
 import holyLand from '../img/holy-land.jpg';
@@ -11,7 +13,7 @@ const Pilgrimage = () => {
     return (
         <>
             <section className="section-pilgrimage" id="pilgrimage">
-                <h1>Pielgrzymki</h1>
+                <Fade right cascade><h1>Pielgrzymki</h1></Fade>
                 <div>
                     <div className="pilgrimage-italy">
                         <div className="pilgrimage-photo">

@@ -1,0 +1,112 @@
+section.offer {
+  width: 1200px;
+  margin: 60px auto 30px;
+}
+
+section.offer h1 {
+  margin: 40px 0;
+  font-size: 48px;
+  color: #43b1c9;
+  text-align: center;
+  font-weight: 400;
+}
+
+section.offer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section.offer div img {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+section.offer div h5 {
+  width: 250px;
+  font-size: 26px;
+  margin: 15px auto 0 auto;
+  text-align: center;
+  font-weight: 400;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+section.offer div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 400px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+section.offer div button {
+  width: 150px;
+  margin: 0 auto;
+  border: none;
+  background-color: transparent;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: gray;
+  border-bottom: 1px solid gray;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+}
+
+section.offer div div:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0px 0px 20px -4px black;
+  box-shadow: 0px 0px 20px -4px black;
+}
+
+section.offer div div:hover img {
+  border: none;
+  padding: 10px;
+}
+
+section.offer div div:hover h5:hover {
+  color: #43b1c9;
+  cursor: pointer;
+}
+
+section.offer div div:hover button {
+  width: 170px;
+  border: 1px solid #43b1c9;
+  color: #43b1c9;
+}
+
+section.offer div div:hover button:hover {
+  background-color: #a9e1ee;
+  color: white;
+}
+
+section.offer div .trip {
+  -webkit-animation-duration: 1587ms !important;
+          animation-duration: 1587ms !important;
+}
+
+section.offer div .camp {
+  -webkit-animation-duration: 1000ms !important;
+          animation-duration: 1000ms !important;
+}
+
+section.offer div .pilgrimage {
+  -webkit-animation-duration: 1260ms !important;
+          animation-duration: 1260ms !important;
+}
+/*# sourceMappingURL=Offer.css.map */

@@ -1,12 +1,15 @@
 import React from 'react';
 import logo from '../img/logo2.png'
+import Fade from 'react-reveal/Fade';
+import { Link } from 'react-scroll';
+
 
 import '../styles/Footer.scss';
 
 const Footer = () => {
     return (
         <footer>
-            <div id="footer">
+            <Fade right cascade><div id="footer">
                 <div className="footer-left">
                     <div><img src={logo} alt="" /></div>
                 </div>
@@ -14,19 +17,109 @@ const Footer = () => {
                 <div className="footer-centre">
                     <nav className="footer-nav">
                         <ul className="footer-list-right">
-                            <li><a href="">Home</a></li>
-                            <li><a href="">O nas</a></li>
-                            <li><a href="">Oferta</a></li>
-                            <li><a href="">Zalety</a></li>
-                            <li><a href="">Wycieczki</a></li>
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="header"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={800}
+                                >Home</Link>
+                            </li>
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="aboutUs"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={800}
+                                >O nas</Link>
+                            </li>
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="offer"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={700}
+                                >Oferta</Link>
+                            </li>
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="whyUs"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={700}
+                                >Zalety</Link></li>
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="tours"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={600}
+                                >Wycieczki</Link>
+                            </li>
                         </ul>
 
                         <ul className="footer-list-left">
-                            <li><a href="">City Break</a></li>
-                            <li><a href="">Obozy młodzieżowe</a></li>
-                            <li><a href="">Pielgrzymki</a></li>
-                            <li><a href="">Nasz zespół</a></li>
-                            <li><a href="">Kontakt</a></li>
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="city-break"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={600}
+                                >City break</Link>
+                            </li>
+
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="camp"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={600}
+                                >Obozy młodzieżowe</Link>
+                            </li>
+
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="pilgrimage"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={500}
+                                >Pielgrzymki</Link></li>
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="ourTeam"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={500}
+                                >Nasz zespół</Link>
+                            </li>
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="contact"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={500}
+                                >Kontakt</Link>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -51,7 +144,7 @@ const Footer = () => {
                         <a className="linkedin" href=""><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
-            </div>
+            </div></Fade>
 
             <div class="copyright">
                 <p>Projekt i wykonanie strony Kamil Gajewski <span>webgajewski@gmail.com</span></p>

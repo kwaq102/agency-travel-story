@@ -1,0 +1,42 @@
+section.aboutUs {
+  width: 1200px;
+  margin: 30px auto;
+}
+
+section.aboutUs h1 {
+  margin: 40px 0;
+  font-size: 48px;
+  color: #43b1c9;
+  text-align: center;
+  font-weight: 400;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+section.aboutUs div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.aboutUs div p {
+  padding: 0 20px 0 10px;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: justify;
+}
+
+section.aboutUs div p span {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 60%;
+}
+
+section.aboutUs div img {
+  width: 40%;
+  border-radius: 1%;
+  -webkit-box-shadow: 6px 3px 14px 1px rgba(0, 0, 0, 0.22);
+  box-shadow: 6px 3px 14px 1px rgba(0, 0, 0, 0.22);
+}
+/*# sourceMappingURL=AboutUs.css.map */

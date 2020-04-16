@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/CityBreak.scss';
+import Fade from 'react-reveal/Fade';
 
 import london from '../img/london.jpg';
 import barcelona from '../img/cathedral-barcelona.jpg';
@@ -16,7 +17,7 @@ const CityBreak = () => {
     return (
         <>
             <section className="city-break" id="city-break">
-                <h1>City Break</h1>
+                <Fade right cascade><h1>City Break</h1></Fade>
                 <div>
                     <div className="london">
                         <div className="cities-photo">

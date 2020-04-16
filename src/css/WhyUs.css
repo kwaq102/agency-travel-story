@@ -1,0 +1,163 @@
+section.whyUs {
+  margin-top: 100px;
+  padding: 120px calc((100% - 1200px) / 2) 80px calc((100% - 1200px) / 2);
+  background-color: #eff3f8;
+}
+
+section.whyUs div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.whyUs div .whyUs-photos {
+  position: relative;
+}
+
+section.whyUs div .whyUs-photos .eiffla {
+  height: 500px;
+  margin-right: 150px;
+  -webkit-box-shadow: 0px 0px 37px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 37px 6px rgba(0, 0, 0, 0.75);
+}
+
+section.whyUs div .whyUs-photos .beach {
+  position: absolute;
+  top: 50px;
+  left: -80px;
+  border-radius: 8px;
+}
+
+section.whyUs div .advantage {
+  display: block;
+  position: relative;
+}
+
+section.whyUs div .advantage h1 {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  color: #43b1c9;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+section.whyUs div .advantage div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.whyUs div .advantage div div.arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+section.whyUs div .advantage div div.arrow div {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 20px;
+  -webkit-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
+}
+
+section.whyUs div .advantage div div.arrow div i.fas {
+  line-height: 50px;
+  font-size: 15px;
+  color: #43b1c9;
+  text-align: center;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+section.whyUs div .advantage div div.arrow h4 {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: 400;
+}
+
+section.whyUs div .advantage div div.arrow:hover {
+  cursor: pointer;
+}
+
+section.whyUs div .advantage div div.arrow:hover div i.fas {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+section.whyUs div .advantage div p {
+  height: 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: .1s linear;
+  transition: .1s linear;
+}
+
+section.whyUs div .advantage div p.active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  height: 100%;
+}
+
+section.whyUs div.boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+}
+
+section.whyUs div.boxes div {
+  width: 450px;
+}
+
+section.whyUs div.boxes div div {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: none;
+}
+
+section.whyUs div.boxes div div h4 {
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  font-style: italic;
+  color: #43b1c9;
+}
+
+section.whyUs div.boxes div div p {
+  font-size: 14px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=WhyUs.css.map */

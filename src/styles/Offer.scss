@@ -52,7 +52,6 @@ section.offer {
             cursor: pointer;
         }
 
-
         div:hover {
             transform: scale(1.1);
 
@@ -85,11 +84,19 @@ section.offer {
                 background-color: #a9e1ee;
                 color: white;
             }
-
         }
 
+        .trip {
+            animation-duration: 1587ms !important;
+        }
+
+        .camp {
+            animation-duration: 1000ms !important;
+        }
+
+        .pilgrimage {
+            animation-duration: 1260ms !important;
+        }
 
     }
-
-
 }

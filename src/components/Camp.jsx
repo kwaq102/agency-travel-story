@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/Camp.scss';
+import Fade from 'react-reveal/Fade';
+
 
 import gniezno from '../img/gniezno.jpg';
 import lodz from '../img/lodz.jpg';
@@ -13,7 +15,7 @@ const Tours = () => {
         <>
             <section className="camp" id="camp">
 
-                <h1>Obozy młodzieżowe</h1>
+                <Fade left cascade><h1>Obozy młodzieżowe</h1></Fade>
 
                 <div>
                     <div className="piastowie">

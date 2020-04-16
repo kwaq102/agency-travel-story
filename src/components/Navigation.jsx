@@ -96,8 +96,6 @@ const Navigation = () => {
                                 >Pielgrzymki</Link></li>
                         </ul>
                     </li>
-
-
                     <li>
                         <Link
                             activeClass="active"

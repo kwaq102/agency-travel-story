@@ -1,0 +1,158 @@
+footer {
+  padding: 40px 0 0 0;
+  background-image: url("../img/vintage-wallpaper.png");
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 40px;
+}
+
+footer div .footer-left {
+  width: 200px;
+}
+
+footer div .footer-left div img {
+  display: block;
+  max-height: 161px;
+}
+
+footer div .footer-centre {
+  display: block;
+  width: 360px;
+}
+
+footer div .footer-centre .footer-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer div .footer-centre .footer-nav .footer-list-right,
+footer div .footer-centre .footer-nav .footer-list-left {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: none;
+  position: static;
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+footer div .footer-centre .footer-nav .footer-list-right li::before,
+footer div .footer-centre .footer-nav .footer-list-left li::before {
+  width: 17px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+  height: 5px;
+  border-top: 2px solid #43b1c9;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+footer div .footer-centre .footer-nav .footer-list-right li,
+footer div .footer-centre .footer-nav .footer-list-left li {
+  text-align: left;
+  font-size: 12px;
+  padding: 8px 0;
+}
+
+footer div .footer-centre .footer-nav .footer-list-right li a,
+footer div .footer-centre .footer-nav .footer-list-left li a {
+  font-size: 12px;
+}
+
+footer div .footer-centre .footer-nav .footer-list-right li:hover::before,
+footer div .footer-centre .footer-nav .footer-list-left li:hover::before {
+  width: 35px;
+}
+
+footer div .footer-right {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer div .footer-right .contact {
+  display: block;
+}
+
+footer div .footer-right .contact p {
+  width: 100%;
+  margin: 15px 0;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 150%;
+}
+
+footer div .footer-right .contact span {
+  margin-top: 16px;
+  margin-right: 20px;
+  color: white;
+}
+
+footer div .footer-right .contact span i {
+  font-size: 14px;
+}
+
+footer div .footer-right .socials {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer div .footer-right .socials a {
+  padding: 5px;
+}
+
+footer div .footer-right .socials a i {
+  font-size: 30px;
+  color: white;
+}
+
+footer div .footer-right .socials a .fa-facebook-square:hover {
+  color: #4267b2;
+}
+
+footer div .footer-right .socials a .fa-twitter-square:hover {
+  color: #1da1f2;
+}
+
+footer div .footer-right .socials a .fa-instagram-square:hover {
+  color: black;
+}
+
+footer div .footer-right .socials a .fa-linkedin:hover {
+  color: #0077b5;
+}
+
+footer .copyright {
+  display: block;
+  margin: 20px 0 0 0;
+  padding: 0;
+  background-color: #000;
+  color: white;
+}
+
+footer .copyright p {
+  display: block;
+  padding: 10px 0px;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer .copyright p span {
+  padding-left: 5px;
+}
+/*# sourceMappingURL=Footer.css.map */

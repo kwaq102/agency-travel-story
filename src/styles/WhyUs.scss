@@ -3,7 +3,6 @@ section.whyUs {
     padding: 120px calc((100% - 1200px) / 2) 80px calc((100% - 1200px) / 2);
     background-color: #eff3f8;
 
-
     div {
         display: flex;
 
@@ -28,11 +27,9 @@ section.whyUs {
         }
 
         .advantage {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-
+            display: block;
             position: relative;
+
 
             h1 {
                 position: absolute;
@@ -56,8 +53,8 @@ section.whyUs {
                     border-bottom: 1px solid rgba(0, 0, 0, .1);
 
                     div {
-                        width: 50px;
-                        height: 50px;
+                        width: 40px;
+                        height: 40px;
                         background: #fff;
                         border-radius: 50%;
                         margin-right: 20px;
@@ -66,19 +63,19 @@ section.whyUs {
                         box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
 
                         i.fas {
-                            line-height: 50px;
+                            line-height: 40px;
                             font-size: 15px;
                             color: #43b1c9;
                             text-align: center;
                             transform: rotate(90deg);
-                            transition: .3s;
+                            transition: .4s;
                         }
                     }
 
                     h4 {
                         text-transform: uppercase;
                         font-size: 20px;
-                        line-height: 50px;
+                        line-height: 40px;
                         font-weight: 400;
                     }
                 }
@@ -93,16 +90,43 @@ section.whyUs {
                     }
                 }
 
+                div.arrow.active {
+                    div {
+                        background-color: #43b1c9;
+
+                        i.fas {
+                            transform: rotate(180deg);
+                            color: white;
+                        }
+                    }
+                }
+
+                div.arrow.active:hover {
+                    div {
+                        i.fas {
+                            transform: rotate(0deg);
+                        }
+                    }
+                }
+
                 p {
+                    height: 0;
                     margin-bottom: 20px;
                     font-size: 14px;
+                    letter-spacing: 1px;
                     text-align: justify;
                     line-height: 150%;
                     color: rgba(0, 0, 0, 0.8);
+                    overflow: hidden;
+                    // transform: scale(0);
+                    transition: .2s linear;
                 }
 
+                p.active {
+                    height: 130px;
+                    // transform: scale(1),
+                }
             }
-
         }
     }
 
