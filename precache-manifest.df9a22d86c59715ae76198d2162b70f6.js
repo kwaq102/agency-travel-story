@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c1f39950443af0ec21688cd13f86e3d7",
+    "revision": "0a6b9a44dcf30caca65f237d2f96bb82",
     "url": "/agency-travel-story/index.html"
   },
   {
-    "revision": "bf32f8bf1a2402bc0afa",
-    "url": "/agency-travel-story/static/css/main.44fc19b6.chunk.css"
+    "revision": "f6702554862b58632914",
+    "url": "/agency-travel-story/static/css/2.8730d5d4.chunk.css"
   },
   {
-    "revision": "9058800609e593b050fd",
-    "url": "/agency-travel-story/static/js/2.448bea90.chunk.js"
+    "revision": "2d385d4f365251e4aa5d",
+    "url": "/agency-travel-story/static/css/main.8242eaba.chunk.css"
+  },
+  {
+    "revision": "f6702554862b58632914",
+    "url": "/agency-travel-story/static/js/2.df87e938.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/agency-travel-story/static/js/2.448bea90.chunk.js.LICENSE.txt"
+    "url": "/agency-travel-story/static/js/2.df87e938.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bf32f8bf1a2402bc0afa",
-    "url": "/agency-travel-story/static/js/main.2815dfb7.chunk.js"
+    "revision": "2d385d4f365251e4aa5d",
+    "url": "/agency-travel-story/static/js/main.46938349.chunk.js"
   },
   {
     "revision": "398a5fe3d9bbaec50018",
@@ -124,6 +128,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agency-travel-story/static/media/ola.f04a489b.jpg"
   },
   {
+    "revision": "8e20bbd8e7e53fd78bd51b74054ce653",
+    "url": "/agency-travel-story/static/media/paella.8e20bbd8.jpg"
+  },
+  {
+    "revision": "1e5d8add8c10ae737317d9ce0af4d083",
+    "url": "/agency-travel-story/static/media/paella_min.1e5d8add.jpg"
+  },
+  {
     "revision": "637db909f57b48bdea89154900ebbbea",
     "url": "/agency-travel-story/static/media/paris-molin-rouge.637db909.jpg"
   },
@@ -148,12 +160,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agency-travel-story/static/media/rome.de58536e.jpg"
   },
   {
+    "revision": "c7f99128134fcc948f54470e05b70c9c",
+    "url": "/agency-travel-story/static/media/sagrada.c7f99128.jpg"
+  },
+  {
+    "revision": "2b27cbdbdf39df599ffc3a6326c84e85",
+    "url": "/agency-travel-story/static/media/sagrada_min.2b27cbdb.jpg"
+  },
+  {
     "revision": "21afe81a2b43f68403ce674be71b5a51",
     "url": "/agency-travel-story/static/media/slogan4.21afe81a.jpg"
   },
   {
     "revision": "69daa8f6ffa717ab90bc1fbf13fb80c7",
     "url": "/agency-travel-story/static/media/spain.69daa8f6.jpg"
+  },
+  {
+    "revision": "d555a0b49d934a42e21bf9f294f5f9c3",
+    "url": "/agency-travel-story/static/media/spain.d555a0b4.jpg"
+  },
+  {
+    "revision": "569254c39d38543f8d98737e4b33954e",
+    "url": "/agency-travel-story/static/media/spain_min.569254c3.jpg"
   },
   {
     "revision": "cccef21f8d392bf856bf0b12152655e2",
@@ -168,6 +196,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agency-travel-story/static/media/trip.a2e6f9a9.jpg"
   },
   {
+    "revision": "432ba3f72284ce0fc4d0e401f215ccfa",
+    "url": "/agency-travel-story/static/media/valencia.432ba3f7.jpg"
+  },
+  {
+    "revision": "7cfda2576c6b404bc36a9bd50a6c2ed9",
+    "url": "/agency-travel-story/static/media/valencia_min.7cfda257.jpg"
+  },
+  {
     "revision": "c23889f8c21223596dc35807838e69df",
     "url": "/agency-travel-story/static/media/venice.c23889f8.jpg"
   },
@@ -178,5 +214,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "78ee9c8a6a9f322010a59e932bc83920",
     "url": "/agency-travel-story/static/media/vintage-wallpaper.78ee9c8a.png"
+  },
+  {
+    "revision": "d1c696cdf11e988ee4516cc9fb2448d2",
+    "url": "/agency-travel-story/static/media/windmills.d1c696cd.jpg"
+  },
+  {
+    "revision": "12a150a81cdef41c7f1b9dd0369d11bd",
+    "url": "/agency-travel-story/static/media/windmills_min.12a150a8.jpg"
   }
 ]);
