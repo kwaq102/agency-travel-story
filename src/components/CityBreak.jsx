@@ -19,7 +19,7 @@ const CityBreak = () => {
             <section className="city-break" id="city-break">
                 <Fade right cascade><h1>City Break</h1></Fade>
                 <div>
-                    <div className="london">
+                    <Fade bottom><div className="london">
                         <div className="cities-photo">
                             <img src={london} alt="" />
                         </div>
@@ -32,9 +32,9 @@ const CityBreak = () => {
                         </button>
 
                         {/* <Route path="/spain" component={Spain} /> */}
-                    </div>
+                    </div></Fade>
 
-                    <div className="barcelona">
+                    <Fade top><div className="barcelona">
                         <div className="cities-photo">
                             <img src={barcelona} alt="" />
                         </div>
@@ -47,9 +47,9 @@ const CityBreak = () => {
                         </button>
 
                         {/* <Route path="/spain" component={Spain} /> */}
-                    </div>
+                    </div></Fade>
 
-                    <div className="paris">
+                    <Fade bottom><div className="paris">
                         <div className="cities-photo">
                             <img src={paris} alt="" />
                         </div>
@@ -64,9 +64,9 @@ const CityBreak = () => {
                         </button>
 
                         {/* <Route path="/spain" component={Spain} /> */}
-                    </div>
+                    </div></Fade>
 
-                    <div className="prague">
+                    <Fade><div className="prague">
                         <div className="cities-photo">
                             <img src={prague} alt="" />
                         </div>
@@ -81,9 +81,9 @@ const CityBreak = () => {
                         </button>
 
                         {/* <Route path="/spain" component={Spain} /> */}
-                    </div>
+                    </div></Fade>
 
-                    <div className="rome">
+                    <Fade><div className="rome">
                         <div className="cities-photo">
                             <img src={rome} alt="" />
                         </div>
@@ -98,9 +98,9 @@ const CityBreak = () => {
                         </button>
 
                         {/* <Route path="/spain" component={Spain} /> */}
-                    </div>
+                    </div></Fade>
 
-                    <div className="vienna">
+                    <Fade><div className="vienna">
                         <div className="cities-photo">
                             <img src={vienna} alt="" />
                         </div>
@@ -114,9 +114,9 @@ const CityBreak = () => {
                         </button>
 
                         {/* <Route path="/spain" component={Spain} /> */}
-                    </div>
+                    </div></Fade>
 
-                    <div className="madrid">
+                    <Fade left><div className="madrid">
                         <div className="cities-photo">
                             <img src={madrid} alt="" />
                         </div>
@@ -130,9 +130,9 @@ const CityBreak = () => {
                         </button>
 
                         {/* <Route path="/spain" component={Spain} /> */}
-                    </div>
+                    </div></Fade>
 
-                    <div className="berlin">
+                    <Fade right><div className="berlin">
                         <div className="cities-photo">
                             <img src={berlin} alt="" />
                         </div>
@@ -146,8 +146,7 @@ const CityBreak = () => {
                         </button>
 
                         {/* <Route path="/spain" component={Spain} /> */}
-                    </div>
-
+                    </div></Fade>
                 </div>
 
             </section>

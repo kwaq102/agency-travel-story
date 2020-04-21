@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/OurTeam.scss';
 import Pulse from 'react-reveal/Pulse';
 import Zoom from 'react-reveal/Zoom';
-import Slide from 'react-reveal/Slide';
 import Flip from 'react-reveal/Flip';
 import Fade from 'react-reveal/Fade';
 
@@ -29,7 +28,7 @@ const OurTeam = () => {
                             <div><img src={anna} alt="" /></div>
                             <Flip bottom><h4>Anna Gajewska</h4></Flip>
                         </div>
-                        <Fade right><p>Moje serce jest podzielone pomiędzy Francję, Hiszpanię i Portugalię i tam spędzam połowę swojego życia. To moje ukochane kierunki i zawsze jestem niezmiernie szczęśliwa, gdy mogę Państwa tam zabrać i opowiadać  o wspaniałościach, które napotykamy podczas naszej podróży. Uwielbiam również słoneczną Italię i bardzo prawdopodobne, że również tam się zobaczymy. Moja specjalizacja to wyjazdy pielgrzymkowe. W biurze natomiast jestem odpowiedzialna  za kontakty z Państwem. Układam programy, dokonuję rezerwacji i dokładam wszelkim starań, aby nasza wspólna podróż była pełna wrażeń.</p></Fade >
+                        <Fade><p>Moje serce jest podzielone pomiędzy Francję, Hiszpanię i Portugalię i tam spędzam połowę swojego życia. To moje ukochane kierunki i zawsze jestem niezmiernie szczęśliwa, gdy mogę Państwa tam zabrać i opowiadać  o wspaniałościach, które napotykamy podczas naszej podróży. Uwielbiam również słoneczną Italię i bardzo prawdopodobne, że również tam się zobaczymy. Moja specjalizacja to wyjazdy pielgrzymkowe. W biurze natomiast jestem odpowiedzialna  za kontakty z Państwem. Układam programy, dokonuję rezerwacji i dokładam wszelkim starań, aby nasza wspólna podróż była pełna wrażeń.</p></Fade >
                     </div>
 
                     <div className="maja-marta">
@@ -49,7 +48,7 @@ const OurTeam = () => {
                             <div><img src={spirek} alt="" /></div>
                             <Flip bottom><h4>Spirek</h4></Flip>
                         </div>
-                        <Slide left><p>Mój anioł stróż we Francji. Czuwa nad każdym moim krokiem tam postawionym. Super kolega, ostoja spokoju, świetny doradca, a przede wszystkim wspaniały przewodnik po Francji. W niezwykle ciekawy sposób przeprowadzi nas przez dzieje tego kraju, opowie o pikantnych szczegółach z życia francuskich królów, romansach i aferach dworskich, wojnach. Poprowadzi nas przez sale największego muzeum na świecie - on o Luwrze wie wszystko. Artystyczna dusza, nie lubi „podłych Anglików”, miłośnik dobrej kuchni i propagator sztuki jedzenia. Kiedyś usłyszałam że jestem barbarzyńcą bo źle kroję ser.</p></Slide>
+                        <Fade><p>Mój anioł stróż we Francji. Czuwa nad każdym moim krokiem tam postawionym. Super kolega, ostoja spokoju, świetny doradca, a przede wszystkim wspaniały przewodnik po Francji. W niezwykle ciekawy sposób przeprowadzi nas przez dzieje tego kraju, opowie o pikantnych szczegółach z życia francuskich królów, romansach i aferach dworskich, wojnach. Poprowadzi nas przez sale największego muzeum na świecie - on o Luwrze wie wszystko. Artystyczna dusza, nie lubi „podłych Anglików”, miłośnik dobrej kuchni i propagator sztuki jedzenia. Kiedyś usłyszałam że jestem barbarzyńcą bo źle kroję ser.</p></Fade>
                     </div>
 
                     <div className="monika">
@@ -63,9 +62,9 @@ const OurTeam = () => {
                     <div className="ola right">
                         <div>
                             <div><img src={ola} alt="" /></div>
-                            <h4>Ola</h4>
+                            <Flip bottom><h4>Ola</h4></Flip>
                         </div>
-                        <Fade bottom cascade><p>Znakomita pilotka, specjalistka od Grecji oraz opiekunka od spraw urzędowych, prawnych i administracyjnych. Ogromne wsparcie, dobra rada, anielska cierpliwość. O czarującym glosie już wspominałam, ale w przypadku Oli nie da się tego pominąć. Swoim ciepłym i życzliwym tonem opowie Wam o Grecji, w której jest zakochana.  Uwielbia dzieci w związku z tym zajmuje się organizacją wycieczek szkolnych i jest z tego powodu bardzo Happy.</p></Fade>
+                        <Fade><p>Znakomita pilotka, specjalistka od Grecji oraz opiekunka od spraw urzędowych, prawnych i administracyjnych. Ogromne wsparcie, dobra rada, anielska cierpliwość. O czarującym glosie już wspominałam, ale w przypadku Oli nie da się tego pominąć. Swoim ciepłym i życzliwym tonem opowie Wam o Grecji, w której jest zakochana.  Uwielbia dzieci w związku z tym zajmuje się organizacją wycieczek szkolnych i jest z tego powodu bardzo Happy.</p></Fade>
                     </div>
 
                 </div>

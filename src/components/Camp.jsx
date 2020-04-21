@@ -16,8 +16,7 @@ const Tours = () => {
             <section className="camp" id="camp">
 
                 <Fade left cascade><h1>Obozy młodzieżowe</h1></Fade>
-
-                <div>
+                <Fade left cascade><div>
                     <div className="piastowie">
                         <div className="camp-photo">
                             <img src={gniezno} alt="" />
@@ -62,9 +61,7 @@ const Tours = () => {
 
                         {/* <Route path="/spain" component={Spain} /> */}
                     </div>
-
-                </div>
-
+                </div></Fade>
             </section>
         </>
     );

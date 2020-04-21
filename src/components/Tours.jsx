@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/Tours.scss';
 import Fade from 'react-reveal/Fade';
 
-
 import spain from '../img/spain.jpg';
 import barcelona from '../img/barcelona.jpg';
 import azulejos from '../img/azulejos.jpg';
@@ -10,32 +9,33 @@ import france from '../img/france-eiffla.jpg';
 import italy from '../img/rome.jpg';
 import croatia from '../img/croatia-dubrovnik.jpg';
 
-import { Route, Switch, Link } from 'react-router-dom';
+import Spain from './Spain'
 
-import Spain from "./Spain"
+
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
 
 const Tours = () => {
     return (
-        <>
+        <Router>
+            <Route path="/spain" component={Spain} />
             <section className="tours" id="tours">
                 <Fade left cascade><h1>Wycieczki</h1></Fade>
                 <div>
-                    <div className="spain">
+                    <Fade top><div className="spain">
                         <div className="tour-photo">
                             <img src={spain} alt="" />
                         </div>
                         <h2>Hiszpania</h2>
                         <h3>Siesta, fiesta i maniana</h3>
                         <p> I ta muzyka czarnosrebrna, srebrnozłota nagle wybucha i wypełnia noc po brzegi, I bez flamenco nie zrozumiesz Don Kichota, Garci De Lorci i Lope de Vegi. <span>Wojciech Młynarski</span></p>
-
                         <button>
+
                             <Link to="/spain">czytaj więcej</Link>
                         </button>
+                    </div></Fade>
 
-                        {/* <Route path="/spain" component={Spain} /> */}
-                    </div>
-
-                    <div className="spain-barcelona">
+                    <Fade bottom><div className="spain-barcelona">
                         <div className="tour-photo">
                             <img src={barcelona} alt="" />
                         </div>
@@ -44,9 +44,9 @@ const Tours = () => {
                         <p>Jedno serce, jedna ona, katalońska Barcelona. Jedno serce, jedno bicie, Barcelona ponad życie <span>przyśpiewka kibiców FC Barcelony</span>  </p>
                         <button><Link to="/spain-barcelona" >czytaj więcej</Link></button>
                         {/* <Route path="/spain-barcelona" component={Spain} /> */}
-                    </div>
+                    </div></Fade>
 
-                    <div className="portugal">
+                    <Fade top><div className="portugal">
                         <div className="tour-photo">
                             <img src={azulejos} alt="" />
                         </div>
@@ -55,9 +55,9 @@ const Tours = () => {
                         <p>…Nie znam kwiatów o podobnej różnorodności kolorów jak Lizbona w słońcu… <span>Fernando Pesoa</span> </p>
                         <button><Link to="/portugal" >czytaj więcej</Link></button>
                         {/* <Route path="/portugal" component={Portugal} /> */}
-                    </div>
+                    </div></Fade>
 
-                    <div className="france">
+                    <Fade><div className="france">
                         <div className="tour-photo">
                             <img src={france} alt="" />
                         </div>
@@ -70,9 +70,9 @@ const Tours = () => {
                         </button>
 
                         {/* <Route path="/spain" component={Spain} /> */}
-                    </div>
+                    </div></Fade>
 
-                    <div className="italy">
+                    <Fade><div className="italy">
                         <div className="tour-photo">
                             <img src={italy} alt="" />
                         </div>
@@ -85,9 +85,9 @@ const Tours = () => {
                         </button>
 
                         {/* <Route path="/spain" component={Spain} /> */}
-                    </div>
+                    </div></Fade>
 
-                    <div className="croatia">
+                    <Fade><div className="croatia">
                         <div className="tour-photo">
                             <img src={croatia} alt="" />
                         </div>
@@ -100,12 +100,13 @@ const Tours = () => {
                         </button>
 
                         {/* <Route path="/spain" component={Spain} /> */}
-                    </div>
+                    </div></Fade>
 
                 </div>
 
+
             </section>
-        </>
+        </Router>
     );
 }
 

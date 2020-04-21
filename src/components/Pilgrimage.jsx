@@ -14,7 +14,7 @@ const Pilgrimage = () => {
         <>
             <section className="section-pilgrimage" id="pilgrimage">
                 <Fade right cascade><h1>Pielgrzymki</h1></Fade>
-                <div>
+                <Fade right cascade><div>
                     <div className="pilgrimage-italy">
                         <div className="pilgrimage-photo">
                             <img src={italy} alt="" />
@@ -61,9 +61,7 @@ const Pilgrimage = () => {
 
                         {/* <Route path="/spain" component={Spain} /> */}
                     </div>
-
-                </div>
-
+                </div></Fade>
             </section>
         </>
     );

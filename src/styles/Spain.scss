@@ -1,0 +1,102 @@
+section.offer-spain {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    // transform: translate(-50%, -50%);
+    font-size: 30px;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid red;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0px 0px 191px 32px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 191px 32px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 191px 32px rgba(0, 0, 0, 1);
+    overflow-y: auto;
+
+    .title {
+        width: 60%;
+        margin: 0 auto;
+        background-color: white;
+
+        h1,
+        h2,
+        h4 {
+            text-align: center;
+        }
+
+        h1 {
+            padding: 15px 0;
+            font-size: 28px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        h4 {
+            width: 50%;
+            margin: 0 auto;
+            font-size: 14px;
+            font-weight: normal;
+            font-style: italic;
+            line-height: 150%;
+
+            span {
+                padding-left: 5px;
+                font-style: normal;
+            }
+        }
+    }
+
+    .content {
+
+        width: 60%;
+        margin: 0 auto;
+        padding-top: 20px;
+        background-color: white;
+
+        h4 {
+            width: 70%;
+            margin: 0 auto;
+            font-size: 18px;
+            font-weight: normal;
+            border-bottom: 1px solid black;
+        }
+
+        .description {
+            margin: 0 auto 50px auto;
+            background-color: white;
+            padding-bottom: 50px;
+
+            div {
+                width: 70%;
+                margin: 20px auto 0 auto;
+
+                h5 {
+                    margin: 0 20px;
+                    font-size: 16px;
+                }
+
+                p {
+                    margin: 10px 40px;
+                    font-size: 14px;
+                    line-height: 150%;
+                    text-align: justify;
+                }
+            }
+
+        }
+
+        .photos {
+            display: flex;
+
+            img {
+                display: block;
+                width: 20%;
+            }
+        }
+    }
+
+
+}
