@@ -1,21 +1,20 @@
 import React from 'react';
 import '../styles/program.scss';
+import FranceGallery from './SpainGallery';
 
-import SpainGallery from './SpainGallery';
-
-const Spain = () => {
+const France = () => {
     return (
         <>
             <section className="trip-program">
                 <div className="title">
-                    <h1>Hiszpania</h1>
-                    <h2>Siesta, fiesta i maniana</h2>
-                    <h4>I ta muzyka czarnosrebrna, srebrnozłota nagle wybucha i wypełnia noc po brzegi, I bez flamenco nie zrozumiesz Don Kichota, Garci De Lorci i Lope de Vegi.
-                       <span>Wojciech Młynarski</span></h4>
+                    <h1>Francja</h1>
+                    <h2>Francja</h2>
+                    <h4>Każdy człowiek ma dwie ojczyzny: swoją własną oraz Francję.e de Vegi.
+                       <span>Henri de Bornier</span></h4>
                     <div className="hide" onClick={() => window.history.back()}><span>X</span></div>
                 </div>
                 <div className="content">
-                    <SpainGallery />
+                    <FranceGallery />
                     <h4>Program:</h4>
                     <div className="description">
                         <div className="first-day">
@@ -81,4 +80,4 @@ const Spain = () => {
     );
 }
 
-export default Spain;
+export default France;

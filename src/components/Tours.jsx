@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/Tours.scss';
 import Fade from 'react-reveal/Fade';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
 
 import spain from '../img/spain.jpg';
 import barcelona from '../img/barcelona.jpg';
@@ -9,16 +11,22 @@ import france from '../img/france-eiffla.jpg';
 import italy from '../img/rome.jpg';
 import croatia from '../img/croatia-dubrovnik.jpg';
 
-import Spain from './Spain'
+import Spain from './Spain';
+import SpainBarca from './SpainBarca';
+import Portugal from './Portugal';
+import France from './France';
 
-
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 
 const Tours = () => {
     return (
         <Router>
             <Route path="/spain" component={Spain} />
+            <Route path="/spain-barcelona" component={SpainBarca} />
+            <Route path="/portugal" component={Portugal} />
+            <Route path="/france" component={France} />
+
+
             <section className="tours" id="tours">
                 <Fade left cascade><h1>Wycieczki</h1></Fade>
                 <div>
@@ -30,7 +38,6 @@ const Tours = () => {
                         <h3>Siesta, fiesta i maniana</h3>
                         <p> I ta muzyka czarnosrebrna, srebrnozłota nagle wybucha i wypełnia noc po brzegi, I bez flamenco nie zrozumiesz Don Kichota, Garci De Lorci i Lope de Vegi. <span>Wojciech Młynarski</span></p>
                         <button>
-
                             <Link to="/spain">czytaj więcej</Link>
                         </button>
                     </div></Fade>
@@ -43,7 +50,6 @@ const Tours = () => {
                         <h3>Costa Brava i Rumba de Barcelona</h3>
                         <p>Jedno serce, jedna ona, katalońska Barcelona. Jedno serce, jedno bicie, Barcelona ponad życie <span>przyśpiewka kibiców FC Barcelony</span>  </p>
                         <button><Link to="/spain-barcelona" >czytaj więcej</Link></button>
-                        {/* <Route path="/spain-barcelona" component={Spain} /> */}
                     </div></Fade>
 
                     <Fade top><div className="portugal">
@@ -54,7 +60,6 @@ const Tours = () => {
                         <h3>Azulejos sardynki i wielkie odkrycia</h3>
                         <p>…Nie znam kwiatów o podobnej różnorodności kolorów jak Lizbona w słońcu… <span>Fernando Pesoa</span> </p>
                         <button><Link to="/portugal" >czytaj więcej</Link></button>
-                        {/* <Route path="/portugal" component={Portugal} /> */}
                     </div></Fade>
 
                     <Fade><div className="france">
@@ -63,13 +68,11 @@ const Tours = () => {
                         </div>
                         <h2>Francja</h2>
                         <h3>Francja</h3>
-                        <p> Każdy człowiek ma dwie ojczyzny: swoją własną oraz Francję. <span>Henri de Bornier </span></p>
-
+                        <p>Każdy człowiek ma dwie ojczyzny: swoją własną oraz Francję. <span>Henri de Bornier </span></p>
                         <button>
-                            <Link to="/spain">czytaj więcej</Link>
+                            <Link to="/france">czytaj więcej</Link>
                         </button>
 
-                        {/* <Route path="/spain" component={Spain} /> */}
                     </div></Fade>
 
                     <Fade><div className="italy">

@@ -23,19 +23,9 @@ const Sections = () => {
                 <Camp />
                 <Pilgrimage />
                 <OurTeam />
-
             </div>
         </>
     );
 }
 
 export default Sections;
-
-
-// aboutUs
-// offer
-// whyUs
-// team
-// contact
-
-// #43b1c9

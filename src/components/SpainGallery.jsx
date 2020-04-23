@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import '../../node_modules/react-image-gallery/styles/scss/image-gallery.scss';
-import '../styles/SpainGallery.scss';
+import '../styles/gallery.scss';
 
 import ImageGallery from 'react-image-gallery';
 
@@ -16,13 +16,12 @@ import valencia1 from '../img/spain/valencia_min.jpg';
 import windmills from '../img/spain/windmills.jpg';
 import windmills1 from '../img/spain/windmills_min.jpg';
 
-
-
-
 const images = [
     {
         original: sagrada,
         thumbnail: sagrada1,
+        thumbnailTitle: "coś małe",
+        description: "cooś"
     },
     {
         original: paella,
@@ -48,7 +47,7 @@ class SpainGallery extends Component {
     render() {
         return (
             <>
-                <div className="spain-gallery">
+                <div className="gallery">
                     <ImageGallery items={images}
                         showPlayButton={false}
                         thumbnailPosition='top' />
