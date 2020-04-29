@@ -17,6 +17,9 @@ import Barcelona from './cityBreak/Barcelona';
 import Prague from './cityBreak/Prague';
 import Rome from './cityBreak/Rome';
 import Vienna from './cityBreak/Vienna';
+import London from './cityBreak/London';
+import Madrid from './cityBreak/Madrid';
+import Paris from './cityBreak/Paris';
 
 
 const CityBreak = () => {
@@ -26,6 +29,9 @@ const CityBreak = () => {
             <Route path="/prague" component={Prague} />
             <Route path="/rome" component={Rome} />
             <Route path="/vienna" component={Vienna} />
+            <Route path="/london" component={London} />
+            <Route path="/madrid" component={Madrid} />
+            <Route path="/paris" component={Paris} />
 
             <section className="city-break" id="city-break">
                 <Fade right cascade><h1>City Break</h1></Fade>
@@ -35,15 +41,10 @@ const CityBreak = () => {
                             <img src={london} alt="" />
                         </div>
                         <h2>Dostojny Londyn</h2>
-                        <h3>Będzie cytat</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis id culpa suscipit magni<span>...</span></p>
-
+                        <p>Kto jest zmęczony Londynem, jest zmęczony życiem: w Londynie jest bowiem wszystko, co życie może zaoferować<span>Samuel Johnson</span></p>
                         <button>
-                            <a href="">Czytaj więcej</a>
-                            {/* <Link to="/spain">czytaj więcej</Link> */}
+                            <Link to="/london">czytaj więcej</Link>
                         </button>
-
-                        {/* <Route path="/spain" component={Spain} /> */}
                     </div></Fade>
 
                     <Fade top><div className="barcelona">
@@ -64,17 +65,11 @@ const CityBreak = () => {
                         <div className="cities-photo">
                             <img src={paris} alt="" />
                         </div>
-                        {/* <h2>Zakochany Paryż</h2> */}
-                        <h2>Zakochany kundel :D</h2>
-                        <h3>Będzie cytat</h3>
-                        <p>Paryż to ruchome święto<span>Ernest Hemingway</span></p>
-
+                        <h2>Zakochany Paryż</h2>
+                        <p>Paryż to ruchome święto.<span>Ernest Hemingway</span></p>
                         <button>
-                            <a href="">Czytaj więcej</a>
-                            {/* <Link to="/spain">czytaj więcej</Link> */}
+                            <Link to="/paris">czytaj więcej</Link>
                         </button>
-
-                        {/* <Route path="/spain" component={Spain} /> */}
                     </div></Fade>
 
                     <Fade><div className="prague">
@@ -118,15 +113,11 @@ const CityBreak = () => {
                             <img src={madrid} alt="" />
                         </div>
                         <h2>Elegancki Madryt</h2>
-                        <h3>jakiś tam cytat</h3>
-                        <p> Z Madrytu do nieba, a w niebie dziurka, by móc go oglądać<span>powiedzenie powstałe w czasach króla Karola III </span></p>
-
+                        {/* <h3>jakiś tam cytat</h3> */}
+                        <p>Z Madrytu do nieba, a w niebie dziurka, by móc go oglądać.<span>powiedzenie powstałe w czasach króla Karola III</span></p>
                         <button>
-                            <a href="">Czytaj więcej</a>
-                            {/* <Link to="/spain">czytaj więcej</Link> */}
+                            <Link to="/madrid">czytaj więcej</Link>
                         </button>
-
-                        {/* <Route path="/spain" component={Spain} /> */}
                     </div></Fade>
 
                     <Fade right><div className="berlin">

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/program.scss';
-// import ViennaGallery from './ViennaGallery';
+import ViennaGallery from './ViennaGallery';
 
 const Vienna = () => {
     return (
@@ -12,7 +12,7 @@ const Vienna = () => {
                     <div className="hide" onClick={() => window.history.back()}><span>X</span></div>
                 </div>
                 <div className="content">
-                    {/* <ViennaGallery /> */}
+                    <ViennaGallery />
                     <h4>Program:</h4>
                     <div className="description">
                         <div className="first-day">

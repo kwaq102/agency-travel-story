@@ -101,6 +101,7 @@ section.trip-program {
                     line-height: 150%;
                     text-align: justify;
                 }
+
             }
 
             div.propose-trip {
@@ -119,10 +120,16 @@ section.trip-program {
 
                     h6 {
                         margin: 0 20px;
-
                         font-size: 16px;
                     }
                 }
+
+            }
+
+            .info {
+                margin-top: 80px;
+                margin-bottom: 0;
+                text-align: left;
             }
 
         }
