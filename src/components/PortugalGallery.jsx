@@ -21,32 +21,22 @@ const images = [
     {
         original: ironBridge,
         thumbnail: ironBridge1,
-        thumbnailTitle: "Żelazy most",
-        description: "Żelazy most",
     },
     {
         original: lisbon,
         thumbnail: lisbon1,
-        thumbnailTitle: "Lizbona",
-        description: "Lizbona",
     },
     {
         original: porto,
         thumbnail: porto1,
-        thumbnailTitle: "Porto",
-        description: "Porto",
     },
     {
         original: portugal,
         thumbnail: portugal1,
-        thumbnailTitle: "Zamek Sintra",
-        description: "Zamek Sintra",
     },
     {
         original: tower,
         thumbnail: tower1,
-        thumbnailTitle: "Zamek w Belem",
-        description: "Zamek w Belem",
     },
 ]
 

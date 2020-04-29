@@ -20,15 +20,15 @@ const Offer = () => {
                         <p></p>
                         <button>Dowiedz się więcej</button>
                     </div>
-                    <div className="camp">
-                        <img src={camp} alt="" />
-                        <h5>Obozy młodzieżowe</h5>
-                        <p></p>
-                        <button>Dowiedz się więcej</button>
-                    </div>
                     <div className="pilgrimages">
                         <img src={pilgrimage} alt="" />
                         <h5>Pielgrzymki</h5>
+                        <p></p>
+                        <button>Dowiedz się więcej</button>
+                    </div>
+                    <div className="camp">
+                        <img src={camp} alt="" />
+                        <h5>Obozy młodzieżowe</h5>
                         <p></p>
                         <button>Dowiedz się więcej</button>
                     </div>

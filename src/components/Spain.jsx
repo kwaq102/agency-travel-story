@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/program.scss';
-
 import SpainGallery from './SpainGallery';
 
 const Spain = () => {

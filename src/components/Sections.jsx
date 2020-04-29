@@ -16,12 +16,12 @@ const Sections = () => {
             <div>
                 <AboutUs />
                 <Offer />
-                <WhyUs />
-                <Slogan />
                 <Tours />
-                <CityBreak />
-                <Camp />
                 <Pilgrimage />
+                <Camp />
+                <CityBreak />
+                <Slogan />
+                <WhyUs />
                 <OurTeam />
             </div>
         </>

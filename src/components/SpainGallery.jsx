@@ -20,8 +20,6 @@ const images = [
     {
         original: sagrada,
         thumbnail: sagrada1,
-        thumbnailTitle: "coś małe",
-        description: "cooś"
     },
     {
         original: paella,

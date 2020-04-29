@@ -3,7 +3,6 @@ import '../styles/Tours.scss';
 import Fade from 'react-reveal/Fade';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
-
 import spain from '../img/spain.jpg';
 import barcelona from '../img/barcelona.jpg';
 import azulejos from '../img/azulejos.jpg';
@@ -15,6 +14,7 @@ import Spain from './Spain';
 import SpainBarca from './SpainBarca';
 import Portugal from './Portugal';
 import France from './France';
+import Croatia from './Croatia';
 
 
 
@@ -25,6 +25,7 @@ const Tours = () => {
             <Route path="/spain-barcelona" component={SpainBarca} />
             <Route path="/portugal" component={Portugal} />
             <Route path="/france" component={France} />
+            <Route path="/croatia" component={Croatia} />
 
 
             <section className="tours" id="tours">
@@ -96,13 +97,10 @@ const Tours = () => {
                         </div>
                         <h2>Chorwacja</h2>
                         <h3>Chorwacja</h3>
-                        <p>tu muszę znaleźć bo ciężko, nie ma nic <span>Anna Gajewska aka Tekla</span></p>
-
+                        <p>Zadar ma najpiękniejsze zachody słońca na świecie. Piękniejsze od tych oklaskiwanych każdego wieczora w Key West na Florydzie<span>Alfred Hitchcock</span></p>
                         <button>
-                            <Link to="/spain">czytaj więcej</Link>
+                            <Link to="/croatia">czytaj więcej</Link>
                         </button>
-
-                        {/* <Route path="/spain" component={Spain} /> */}
                     </div></Fade>
 
                 </div>

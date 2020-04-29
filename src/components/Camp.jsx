@@ -1,18 +1,24 @@
 import React from 'react';
 import '../styles/Camp.scss';
 import Fade from 'react-reveal/Fade';
-
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 import gniezno from '../img/gniezno.jpg';
 import lodz from '../img/lodz.jpg';
 import baltic from '../img/baltic.jpg';
 
-// import { Route, Switch, Link } from 'react-router-dom';
+import Lodz from './Lodz';
+import Sea from './Sea';
+import Piastowie from './Piastowie';
 
 
 const Tours = () => {
     return (
-        <>
+        <Router>
+            <Route path="/lodz" component={Lodz} />
+            <Route path="/sea" component={Sea} />
+            <Route path="/piastowie" component={Piastowie} />
+
             <section className="camp" id="camp">
 
                 <Fade left cascade><h1>Obozy młodzieżowe</h1></Fade>
@@ -21,15 +27,13 @@ const Tours = () => {
                         <div className="camp-photo">
                             <img src={gniezno} alt="" />
                         </div>
-                        <h2>Na Szlaku Piastowskim </h2>
-                        <h3>Na Szlaku Piastowskim </h3>
+                        <h2>Na Szlaku Piastowskim</h2>
+                        <h3>Na Szlaku Piastowskim</h3>
                         <p>opis... opis... opis... opis... opis... opis... opis... opis... opis... opis... opis... <span>Ktoś z ktosiowni</span></p>
 
                         <button>
-                            <a href="">Czytaj więcej</a>                            {/* <Link to="/spain">czytaj więcej</Link> */}
+                            <Link to="/piastowie">czytaj więcej</Link>
                         </button>
-
-                        {/* <Route path="/spain" component={Spain} /> */}
                     </div>
 
                     <div className="lodz">
@@ -41,10 +45,9 @@ const Tours = () => {
                         <p>Kiedy tylko bywam w Łodzi, nie mogę nie być na Piotrkowskiej. Tam się wszystko dzieje, tam się wszystkich spotyka<span>Michał Urbaniak</span></p>
 
                         <button>
-                            <a href="">Czytaj więcej</a>                            {/* <Link to="/spain">czytaj więcej</Link> */}
+                            <Link to="/lodz">czytaj więcej</Link>
                         </button>
 
-                        {/* <Route path="/spain" component={Spain} /> */}
                     </div>
 
                     <div className="sea">
@@ -54,16 +57,13 @@ const Tours = () => {
                         <h2>Bałtyk</h2>
                         <h3>MOŻE NASZE MORZE? CZ. I</h3>
                         <p>Opisy wymyśłę<span>Anna Gajewska</span></p>
-
                         <button>
-                            <a href="">Czytaj więcej</a>                            {/* <Link to="/spain">czytaj więcej</Link> */}
+                            <Link to="/sea">czytaj więcej</Link>
                         </button>
-
-                        {/* <Route path="/spain" component={Spain} /> */}
                     </div>
                 </div></Fade>
             </section>
-        </>
+        </Router>
     );
 }
 

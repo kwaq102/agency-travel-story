@@ -47,15 +47,7 @@ const Footer = () => {
                                     duration={700}
                                 >Oferta</Link>
                             </li>
-                            <li>
-                                <Link
-                                    activeClass="active"
-                                    to="whyUs"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={0}
-                                    duration={700}
-                                >Zalety</Link></li>
+
                             <li>
                                 <Link
                                     activeClass="active"
@@ -66,9 +58,29 @@ const Footer = () => {
                                     duration={600}
                                 >Wycieczki</Link>
                             </li>
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="pilgrimage"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={500}
+                                >Pielgrzymki</Link></li>
+
                         </ul>
 
                         <ul className="footer-list-left">
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="camp"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={600}
+                                >Obozy młodzieżowe</Link>
+                            </li>
                             <li>
                                 <Link
                                     activeClass="active"
@@ -83,23 +95,12 @@ const Footer = () => {
                             <li>
                                 <Link
                                     activeClass="active"
-                                    to="camp"
+                                    to="whyUs"
                                     spy={true}
                                     smooth={true}
                                     offset={0}
-                                    duration={600}
-                                >Obozy młodzieżowe</Link>
-                            </li>
-
-                            <li>
-                                <Link
-                                    activeClass="active"
-                                    to="pilgrimage"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={0}
-                                    duration={500}
-                                >Pielgrzymki</Link></li>
+                                    duration={700}
+                                >Zalety</Link></li>
                             <li>
                                 <Link
                                     activeClass="active"

@@ -32,44 +32,30 @@ const images = [
     {
         original: cadaques,
         thumbnail: cadaques1,
-        thumbnailTitle: "Cadaques",
-        description: "Cadaques"
     },
     {
         original: como,
         thumbnail: como1,
-        thumbnailTitle: "Como",
-        description: "Como"
     },
     {
         original: costaBrava,
         thumbnail: costaBrava1,
-        thumbnailTitle: "Costa Brava",
-        description: "Costa Brava"
     },
     {
         original: girona,
         thumbnail: girona1,
-        thumbnailTitle: "Girona",
-        description: "Girona"
     },
     {
         original: mountain,
         thumbnail: mountain1,
-        thumbnailTitle: "Góry",
-        description: "Góry"
     },
     {
         original: sagradaFamilia,
         thumbnail: sagradaFamilia1,
-        thumbnailTitle: "Sagrada Familia",
-        description: "Sagrada Familia"
     },
     {
         original: spainMountain,
         thumbnail: spainMountain1,
-        thumbnailTitle: "Góry Katalonia",
-        description: "Góry Katalonia"
     },
 ]
 

@@ -25,44 +25,30 @@ const images = [
     {
         original: goldenGate,
         thumbnail: goldenGate1,
-        thumbnailTitle: "Złota brama",
-        description: "Złota brama",
     },
     {
         original: jerusalem,
         thumbnail: jerusalem1,
-        thumbnailTitle: "Jerozolimaa",
-        description: "Jerozolima",
     },
     {
         original: church,
         thumbnail: church1,
-        thumbnailTitle: "Bazylika Zaśnięcia Najświętszej Maryi Panny",
-        description: "Bazylika Zaśnięcia Najświętszej Maryi Panny",
     },
     {
         original: jerusalemTemple,
         thumbnail: jerusalemTemple1,
-        thumbnailTitle: "Kościół Wszystkich Narodów",
-        description: "Kościół Wszystkich Narodów",
     },
     {
         original: oliveTrees,
         thumbnail: oliveTrees1,
-        thumbnailTitle: "Drzewa oliwne",
-        description: "Drzewa oliwne",
     },
     {
         original: viaDolorosa,
         thumbnail: viaDolorosa1,
-        thumbnailTitle: "via Dolorosa",
-        description: "via Dolorosa",
     },
     {
         original: wailingWall,
         thumbnail: wailingWall1,
-        thumbnailTitle: "Ściana płaczu",
-        description: "Ściana płaczu",
     },
 ]
 

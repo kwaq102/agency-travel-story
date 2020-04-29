@@ -11,11 +11,22 @@ import vienna from '../img/vienna.jpg';
 import madrid from '../img/madrid.jpg';
 import berlin from '../img/berlin.jpg';
 
-import { Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
+import Barcelona from './cityBreak/Barcelona';
+import Prague from './cityBreak/Prague';
+import Rome from './cityBreak/Rome';
+import Vienna from './cityBreak/Vienna';
+
 
 const CityBreak = () => {
     return (
-        <>
+        <Router>
+            <Route path="/barcelona" component={Barcelona} />
+            <Route path="/prague" component={Prague} />
+            <Route path="/rome" component={Rome} />
+            <Route path="/vienna" component={Vienna} />
+
             <section className="city-break" id="city-break">
                 <Fade right cascade><h1>City Break</h1></Fade>
                 <div>
@@ -28,7 +39,8 @@ const CityBreak = () => {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis id culpa suscipit magni<span>...</span></p>
 
                         <button>
-                            <a href="">Czytaj więcej</a>                            {/* <Link to="/spain">czytaj więcej</Link> */}
+                            <a href="">Czytaj więcej</a>
+                            {/* <Link to="/spain">czytaj więcej</Link> */}
                         </button>
 
                         {/* <Route path="/spain" component={Spain} /> */}
@@ -39,14 +51,13 @@ const CityBreak = () => {
                             <img src={barcelona} alt="" />
                         </div>
                         <h2>Bajeczna Barcelona</h2>
-                        <h3>Będzie cytat</h3>
-                        <p>barca barca barca barca barca barca barca barca barca barca barca barca barca barca barca barca barca<span>barca </span></p>
+                        {/* <h3>Będzie cytat</h3> */}
+                        <p>To miasto ma czarodziejską moc (…). Zanim się człowiek obejrzy, wejdzie mu pod skórę i skradnie duszę.<span>Carlos Ruiz Zafón</span></p>
 
                         <button>
-                            <a href="">Czytaj więcej</a>                            {/* <Link to="/spain">czytaj więcej</Link> */}
+                            <Link to="/barcelona">czytaj więcej</Link>
                         </button>
 
-                        {/* <Route path="/spain" component={Spain} /> */}
                     </div></Fade>
 
                     <Fade bottom><div className="paris">
@@ -70,34 +81,24 @@ const CityBreak = () => {
                         <div className="cities-photo">
                             <img src={prague} alt="" />
                         </div>
-                        {/* <h2>Zakochany Paryż</h2> */}
                         <h2>Lunatyczna Praga</h2>
-                        <h3>Będzie cytat</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, ut consequuntur. Eum, voluptate iure aliquam perspiciatis necessitatibus cumque nulla perferendis accusamus aperiam, maiores voluptatem molestias explicabo culpa sint in assumenda.<span>Kamil Gajewski</span></p>
+                        <p>Praga nie puszcza nikogo z tych, których pochwyciła<span>Angelo Maria Ripellino</span></p>
 
                         <button>
-                            <a href="">Czytaj więcej</a>
-                            {/* <Link to="/spain">czytaj więcej</Link> */}
+                            <Link to="/prague">czytaj więcej</Link>
                         </button>
-
-                        {/* <Route path="/spain" component={Spain} /> */}
                     </div></Fade>
 
                     <Fade><div className="rome">
                         <div className="cities-photo">
                             <img src={rome} alt="" />
                         </div>
-                        {/* <h2>Zakochany Paryż</h2> */}
                         <h2>Antyczny Rzym</h2>
-                        <h3>Będzie cytat</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, ut consequuntur. Eum, voluptate iure aliquam perspiciatis necessitatibus cumque nulla perferendis accusamus aperiam.<span>Kamil Gajewski</span></p>
 
                         <button>
-                            <a href="">Czytaj więcej</a>
-                            {/* <Link to="/spain">czytaj więcej</Link> */}
+                            <Link to="/rome">czytaj więcej</Link>
                         </button>
-
-                        {/* <Route path="/spain" component={Spain} /> */}
                     </div></Fade>
 
                     <Fade><div className="vienna">
@@ -105,15 +106,11 @@ const CityBreak = () => {
                             <img src={vienna} alt="" />
                         </div>
                         <h2>Muzyczny Wiedeń</h2>
-                        <h3>Będzie cytat</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, <span>Kamil Gajewski</span></p>
 
                         <button>
-                            <a href="">Czytaj więcej</a>
-                            {/* <Link to="/spain">czytaj więcej</Link> */}
+                            <Link to="/vienna">czytaj więcej</Link>
                         </button>
-
-                        {/* <Route path="/spain" component={Spain} /> */}
                     </div></Fade>
 
                     <Fade left><div className="madrid">
@@ -150,7 +147,7 @@ const CityBreak = () => {
                 </div>
 
             </section>
-        </>
+        </Router>
     );
 }
 

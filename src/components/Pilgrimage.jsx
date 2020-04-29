@@ -9,6 +9,7 @@ import mary from '../img/mary.jpg';
 
 import ItalyPilgrimage from './ItalyPilgrimage';
 import HolyLand from './HolyLand';
+import FootstepsMary from './FootstepsMary';
 
 
 
@@ -18,6 +19,7 @@ const Pilgrimage = () => {
 
             <Route path="/italyPilgrimage" component={ItalyPilgrimage} />
             <Route path="/holyLand" component={HolyLand} />
+            <Route path="/footstepsMary" component={FootstepsMary} />
 
 
             <section className="section-pilgrimage" id="pilgrimage">
@@ -52,16 +54,13 @@ const Pilgrimage = () => {
                         <div className="pilgrimage-photo">
                             <img src={mary} alt="" />
                         </div>
-                        <h2>Gietrzwałd Niepokalanów św. Gaj</h2>
+                        <h2>Francja Hiszpania Portugalia</h2>
                         <h3>Śladami sanktuariów Maryjnych</h3>
                         <p>Maryja sama szuka takich, którzy by do Niej pobożnie i z uszanowaniem przystępowali: tych bowiem miłuje, tych karmi i zasila, tych za dzieci przyjmuje.<span>Św. Bonawentura</span></p>
 
                         <button>
-                            <a href="">Czytaj więcej</a>
-                            {/* <Link to="/">czytaj więcej</Link> */}
+                            <Link to="/footstepsMary">czytaj więcej</Link>
                         </button>
-
-                        {/* <Route path="/spain" component={Spain} /> */}
                     </div>
                 </div></Fade>
             </section>

@@ -22,38 +22,26 @@ const images = [
     {
         original: assisi,
         thumbnail: assisi1,
-        thumbnailTitle: "assisi",
-        description: "assisi",
     },
     {
         original: basilicaOfLoreto,
         thumbnail: basilicaOfLoreto1,
-        thumbnailTitle: "basilicaOfLoreto",
-        description: "basilicaOfLoreto",
     },
     {
         original: colosseum,
         thumbnail: colosseum1,
-        thumbnailTitle: "colosseum",
-        description: "colosseum",
     },
     {
         original: mass,
         thumbnail: mass1,
-        thumbnailTitle: "mass",
-        description: "mass",
     },
     {
         original: rome,
         thumbnail: rome1,
-        thumbnailTitle: "rome",
-        description: "rome",
     },
     {
         original: siena,
         thumbnail: siena1,
-        thumbnailTitle: "siena",
-        description: "siena",
     },
 ]
 

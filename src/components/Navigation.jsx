@@ -39,16 +39,6 @@ const Navigation = () => {
                             duration={500}
                         >Oferta</Link>
                     </li>
-                    <li>
-                        <Link
-                            activeClass="active"
-                            to="whyUs"
-                            spy={true}
-                            smooth={true}
-                            offset={0}
-                            duration={500}
-                        >Zalety</Link></li>
-
                     <li className="travel-list">
                         <a>Podróże</a>
                         <ul>
@@ -62,8 +52,28 @@ const Navigation = () => {
                                     duration={600}
                                 >Wycieczki</Link>
                             </li>
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="pilgrimage"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={700}
+                                >Pielgrzymki</Link></li>
 
                             <li>
+
+                                <li>
+                                    <Link
+                                        activeClass="active"
+                                        to="camp"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={0}
+                                        duration={700}
+                                    >Obozy młodzieżowe</Link>
+                                </li>
                                 <Link
                                     activeClass="active"
                                     to="city-break"
@@ -74,28 +84,18 @@ const Navigation = () => {
                                 >City break</Link>
                             </li>
 
-                            <li>
-                                <Link
-                                    activeClass="active"
-                                    to="camp"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={0}
-                                    duration={700}
-                                >Obozy młodzieżowe</Link>
-                            </li>
-
-                            <li>
-                                <Link
-                                    activeClass="active"
-                                    to="pilgrimage"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={0}
-                                    duration={700}
-                                >Pielgrzymki</Link></li>
                         </ul>
                     </li>
+                    <li>
+                        <Link
+                            activeClass="active"
+                            to="whyUs"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={500}
+                        >Zalety</Link></li>
+
                     <li>
                         <Link
                             activeClass="active"
