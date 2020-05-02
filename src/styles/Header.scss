@@ -55,15 +55,15 @@ header {
         h2 {
             width: 100%;
             position: absolute;
-            top: 45%;
+            top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-size: 68px;
+            font-size: 60px;
             font-weight: 300;
         }
 
         h2 {
-            top: 55%;
+            top: 60%;
             left: 50%;
         }
 
@@ -71,7 +71,7 @@ header {
             content: attr(data-text);
             width: 100%;
             position: absolute;
-            top: 50%;
+            top: 55%;
             left: 50%;
             transform: translate(-50%, -45%);
             // overflow: hidden;
@@ -82,7 +82,7 @@ header {
             content: attr(data-text);
             width: 100%;
             position: absolute;
-            top: 60%;
+            top: 65%;
             left: 50%;
             transform: translate(-50%, -45%);
             // overflow: hidden;

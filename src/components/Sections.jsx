@@ -19,9 +19,9 @@ const Sections = () => {
                 <Offer />
                 <Tours />
                 <Pilgrimage />
-                <Camp />
-                <CityBreak />
                 <ThemedTrips />
+                <CityBreak />
+                <Camp />
                 <Slogan />
                 <WhyUs />
                 <OurTeam />

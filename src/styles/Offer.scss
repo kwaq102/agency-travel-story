@@ -20,7 +20,7 @@ section.offer {
             position: absolute;
             top: 0;
             left: 0;
-            height: 80%;
+            height: 83%;
             width: 342px;
             padding: 10px 20px;
             line-height: 150%;
@@ -127,6 +127,28 @@ section.offer {
 
         .pilgrimages {
             animation-duration: 1260ms !important;
+            overflow: hidden;
+            position: relative;
+
+            p.show {
+                width: 342px;
+                transform: scaleY(1);
+            }
+        }
+
+        .city {
+            animation-duration: 1360ms !important;
+            overflow: hidden;
+            position: relative;
+
+            p.show {
+                width: 342px;
+                transform: scaleY(1);
+            }
+        }
+
+        .themedTrip {
+            animation-duration: 1300ms !important;
             overflow: hidden;
             position: relative;
 

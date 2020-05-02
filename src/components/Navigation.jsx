@@ -52,6 +52,7 @@ const Navigation = () => {
                                     duration={600}
                                 >Wycieczki</Link>
                             </li>
+
                             <li>
                                 <Link
                                     activeClass="active"
@@ -63,17 +64,17 @@ const Navigation = () => {
                                 >Pielgrzymki</Link></li>
 
                             <li>
+                                <Link
+                                    activeClass="active"
+                                    to="themedTrips"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={700}
+                                >Wycieczki tematyczne</Link></li>
 
-                                <li>
-                                    <Link
-                                        activeClass="active"
-                                        to="camp"
-                                        spy={true}
-                                        smooth={true}
-                                        offset={0}
-                                        duration={700}
-                                    >Obozy młodzieżowe</Link>
-                                </li>
+
+                            <li>
                                 <Link
                                     activeClass="active"
                                     to="city-break"
@@ -82,6 +83,17 @@ const Navigation = () => {
                                     offset={0}
                                     duration={600}
                                 >City break</Link>
+                            </li>
+
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="camp"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={700}
+                                >Obozy młodzieżowe</Link>
                             </li>
 
                         </ul>

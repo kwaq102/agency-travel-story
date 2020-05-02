@@ -67,20 +67,21 @@ const Footer = () => {
                                     offset={0}
                                     duration={500}
                                 >Pielgrzymki</Link></li>
-
                         </ul>
 
                         <ul className="footer-list-left">
+
                             <li>
                                 <Link
                                     activeClass="active"
-                                    to="camp"
+                                    to="themedTrips"
                                     spy={true}
                                     smooth={true}
                                     offset={0}
                                     duration={600}
-                                >Obozy młodzieżowe</Link>
+                                >Wycieczki tematyczne</Link>
                             </li>
+
                             <li>
                                 <Link
                                     activeClass="active"
@@ -90,6 +91,17 @@ const Footer = () => {
                                     offset={0}
                                     duration={600}
                                 >City break</Link>
+                            </li>
+
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="camp"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={600}
+                                >Obozy młodzieżowe</Link>
                             </li>
 
                             <li>
@@ -110,16 +122,6 @@ const Footer = () => {
                                     offset={0}
                                     duration={500}
                                 >Nasz zespół</Link>
-                            </li>
-                            <li>
-                                <Link
-                                    activeClass="active"
-                                    to="contact"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={0}
-                                    duration={500}
-                                >Kontakt</Link>
                             </li>
                         </ul>
                     </nav>
