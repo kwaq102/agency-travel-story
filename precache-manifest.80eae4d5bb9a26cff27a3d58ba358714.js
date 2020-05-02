@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d382a15613411f6523345de0de1b60fe",
+    "revision": "7154050e0fed0fb86eec8788044847f3",
     "url": "/agency-travel-story/index.html"
   },
   {
-    "revision": "721338672a06d7141071",
+    "revision": "ad348b45fa5ee644696d",
     "url": "/agency-travel-story/static/css/2.8730d5d4.chunk.css"
   },
   {
-    "revision": "fb3cca48fbf2d237a1af",
-    "url": "/agency-travel-story/static/css/main.773a4451.chunk.css"
+    "revision": "868674c0a67b42218e1e",
+    "url": "/agency-travel-story/static/css/main.0a0c9b3d.chunk.css"
   },
   {
-    "revision": "721338672a06d7141071",
-    "url": "/agency-travel-story/static/js/2.e97a6bf4.chunk.js"
+    "revision": "ad348b45fa5ee644696d",
+    "url": "/agency-travel-story/static/js/2.6e63f246.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/agency-travel-story/static/js/2.e97a6bf4.chunk.js.LICENSE.txt"
+    "url": "/agency-travel-story/static/js/2.6e63f246.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fb3cca48fbf2d237a1af",
-    "url": "/agency-travel-story/static/js/main.8e8e9e41.chunk.js"
+    "revision": "868674c0a67b42218e1e",
+    "url": "/agency-travel-story/static/js/main.2a15e2d3.chunk.js"
   },
   {
     "revision": "398a5fe3d9bbaec50018",
@@ -152,8 +152,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agency-travel-story/static/media/belvedere_min.928e8431.jpg"
   },
   {
+    "revision": "5d88900a464a46d26bdbac137d49bbd5",
+    "url": "/agency-travel-story/static/media/berlin.5d88900a.jpg"
+  },
+  {
     "revision": "98a9a9a9bae03d7e9f0e3f2f0474fd1a",
     "url": "/agency-travel-story/static/media/berlin.98a9a9a9.jpg"
+  },
+  {
+    "revision": "b789a34b4781d49f1e592191f6b0188a",
+    "url": "/agency-travel-story/static/media/berlinCathedral.b789a34b.jpg"
+  },
+  {
+    "revision": "bf2817180a2ea2a0939d1480aa9dab63",
+    "url": "/agency-travel-story/static/media/berlinCathedral.bf281718.jpg"
+  },
+  {
+    "revision": "7735e09ada5ec934275368ea4cb22d70",
+    "url": "/agency-travel-story/static/media/berlinCathedral_min.7735e09a.jpg"
+  },
+  {
+    "revision": "cb63d9e87a222948e3e3fd7a5c82a787",
+    "url": "/agency-travel-story/static/media/berlinCathedral_min.cb63d9e8.jpg"
+  },
+  {
+    "revision": "37e92f3e1807030db6a6161ecd2af62b",
+    "url": "/agency-travel-story/static/media/berlinWall.37e92f3e.jpg"
+  },
+  {
+    "revision": "8b601c3e4f58d8fffafbae2ee26ef6ac",
+    "url": "/agency-travel-story/static/media/berlinWall_min.8b601c3e.jpg"
+  },
+  {
+    "revision": "36839c4b319e023f5226c58f5bab0ce3",
+    "url": "/agency-travel-story/static/media/berlin_min.36839c4b.jpg"
   },
   {
     "revision": "d1fa5bc711d390d2fac40ee6bdf3e2af",
@@ -172,6 +204,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agency-travel-story/static/media/biskupin_min.d958ed14.jpg"
   },
   {
+    "revision": "83b870c8be3694d347e053a883c837d5",
+    "url": "/agency-travel-story/static/media/blackFriday.83b870c8.jpg"
+  },
+  {
     "revision": "b88dd1d427542e8e590a9ce8a25c0f40",
     "url": "/agency-travel-story/static/media/buckinghamPalace.b88dd1d4.jpg"
   },
@@ -186,6 +222,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cd5712a8fcf8e0e5be73a0fd7f2b5084",
     "url": "/agency-travel-story/static/media/buildings_min.cd5712a8.jpg"
+  },
+  {
+    "revision": "039a54c6d7c7fbc75396e3c9310ab7f8",
+    "url": "/agency-travel-story/static/media/bundestag.039a54c6.jpg"
+  },
+  {
+    "revision": "9b31b6ad23a6122c0c3b282b94f42f1e",
+    "url": "/agency-travel-story/static/media/bundestag_min.9b31b6ad.jpg"
   },
   {
     "revision": "fae6217359146d112c3748b4873f5f40",
@@ -206,6 +250,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e295a2e485e375e8cfc576cd3cc4907b",
     "url": "/agency-travel-story/static/media/campNou_min.e295a2e4.jpg"
+  },
+  {
+    "revision": "21282bc25d00ef5c4776e02cebbde4f0",
+    "url": "/agency-travel-story/static/media/carousel.21282bc2.jpg"
+  },
+  {
+    "revision": "f4198d159628c57fbb403150aeca8371",
+    "url": "/agency-travel-story/static/media/carousel_min.f4198d15.jpg"
   },
   {
     "revision": "f13e840f3d7db59e233b6bd8590dff2d",
@@ -244,6 +296,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agency-travel-story/static/media/charlesBridge_min.70794d54.jpg"
   },
   {
+    "revision": "aec64da858b0fcedd76b2b856acdb8d0",
+    "url": "/agency-travel-story/static/media/christmasMarket.aec64da8.jpg"
+  },
+  {
+    "revision": "0fafcebbb5982f11e49bcf731174f1a9",
+    "url": "/agency-travel-story/static/media/christmasMarket_min.0fafcebb.jpg"
+  },
+  {
     "revision": "c423449d4ba0bb5dcc15c0a964b95f80",
     "url": "/agency-travel-story/static/media/church.c423449d.jpg"
   },
@@ -254,6 +314,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4e50dd80b3c162f5c31d1236a36b0e7b",
     "url": "/agency-travel-story/static/media/church_min.4e50dd80.jpg"
+  },
+  {
+    "revision": "43b76c15a804d4179e97d863012644c7",
+    "url": "/agency-travel-story/static/media/city.43b76c15.jpg"
   },
   {
     "revision": "e6a8ca50acc9d52f77fdc6ce88f5ecff",
@@ -278,6 +342,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f07def58814b9cc3c5211c4f4de9fc7b",
     "url": "/agency-travel-story/static/media/colosseum_min.f07def58.jpg"
+  },
+  {
+    "revision": "2625f907034a89c2140fab5b2c166c53",
+    "url": "/agency-travel-story/static/media/columnSiegessaule.2625f907.jpg"
+  },
+  {
+    "revision": "6c728777357ecaa4bc00f72e9a2d7f3b",
+    "url": "/agency-travel-story/static/media/columnSiegessaule_min.6c728777.jpg"
   },
   {
     "revision": "ccb42b26c3078afa733c20b942df8fd8",
@@ -344,12 +416,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agency-travel-story/static/media/eiffla.3fea6557.jpg"
   },
   {
+    "revision": "7a8629718324df88d930b44232388b4e",
+    "url": "/agency-travel-story/static/media/evening.7a862971.jpg"
+  },
+  {
+    "revision": "4b9cf8e9392b446c162da3cb324b0e33",
+    "url": "/agency-travel-story/static/media/evening_min.4b9cf8e9.jpg"
+  },
+  {
     "revision": "f4afc8becd6800a9f7e16eca369b292f",
     "url": "/agency-travel-story/static/media/factory.f4afc8be.jpg"
   },
   {
     "revision": "d5a61a62fd0fa04cceb789e1bb906d92",
     "url": "/agency-travel-story/static/media/factory_min.d5a61a62.jpg"
+  },
+  {
+    "revision": "d1a2a4601a8ee5606dea9296ffe478af",
+    "url": "/agency-travel-story/static/media/fair.d1a2a460.jpg"
   },
   {
     "revision": "9da0509d313746fa12dc4ba24fea7da0",
@@ -362,6 +446,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7ad17a617f0aa6d064c3cde250f88ea5",
     "url": "/agency-travel-story/static/media/france-eiffla.7ad17a61.jpg"
+  },
+  {
+    "revision": "5cb2ba5e4b85d83b9228b559776859a5",
+    "url": "/agency-travel-story/static/media/gateBrandenburg.5cb2ba5e.jpg"
+  },
+  {
+    "revision": "a5f18a1bbd60f338c900b28b1faa079d",
+    "url": "/agency-travel-story/static/media/gateBrandenburg_min.a5f18a1b.jpg"
   },
   {
     "revision": "20cca3391e50be082602db76b8826b9b",
@@ -596,6 +688,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agency-travel-story/static/media/manufacture_min.249335ef.jpg"
   },
   {
+    "revision": "f0ec60dca4dbd94c4452f8b8358ced1b",
+    "url": "/agency-travel-story/static/media/market.f0ec60dc.jpg"
+  },
+  {
+    "revision": "e25af9b2f43c27970cd6e1cafe7790a8",
+    "url": "/agency-travel-story/static/media/market_min.e25af9b2.jpg"
+  },
+  {
     "revision": "6f63c0dd65110fd2142808955d360d7f",
     "url": "/agency-travel-story/static/media/marta.6f63c0dd.jpg"
   },
@@ -644,8 +744,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agency-travel-story/static/media/neptun_min.ca11a6dc.jpg"
   },
   {
+    "revision": "2df7b85835a7c79394660bd9cd490073",
+    "url": "/agency-travel-story/static/media/newYear.2df7b858.jpg"
+  },
+  {
     "revision": "6e98171fe47d0ef414703f20dc76c46e",
     "url": "/agency-travel-story/static/media/notre-dame.6e98171f.jpg"
+  },
+  {
+    "revision": "4872624ac8dd3bd05b29c46c12699999",
+    "url": "/agency-travel-story/static/media/nuremberg.4872624a.jpg"
+  },
+  {
+    "revision": "3ace8293a9152de68b31ba15af66e19c",
+    "url": "/agency-travel-story/static/media/nuremberg_min.3ace8293.jpg"
+  },
+  {
+    "revision": "91830527c2008a33c2eedfd9a6dc2ab0",
+    "url": "/agency-travel-story/static/media/nutcracker.91830527.jpg"
+  },
+  {
+    "revision": "08dd193035854a47e807aee69876f9d6",
+    "url": "/agency-travel-story/static/media/nutcracker_min.08dd1930.jpg"
   },
   {
     "revision": "f04a489b6e4471c25b15bbfe9c115588",
@@ -694,6 +814,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0785151072c410494bd7d4ff1bb1a47d",
     "url": "/agency-travel-story/static/media/paris_min.07851510.jpg"
+  },
+  {
+    "revision": "c5c6a76abc4af61a63b028994a36bd2c",
+    "url": "/agency-travel-story/static/media/people.c5c6a76a.jpg"
+  },
+  {
+    "revision": "27d7940806a208dbf258531fa195b40a",
+    "url": "/agency-travel-story/static/media/people_min.27d79408.jpg"
   },
   {
     "revision": "70de010615c4191a3373fb6866b18ef1",
@@ -788,6 +916,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agency-travel-story/static/media/prater_min.87c733ab.jpg"
   },
   {
+    "revision": "fe3e364d6aa40f75cd046e1feef67b26",
+    "url": "/agency-travel-story/static/media/redWine.fe3e364d.jpg"
+  },
+  {
+    "revision": "4699021d1a4cb06da63d9cbcdec37370",
+    "url": "/agency-travel-story/static/media/redWine_min.4699021d.jpg"
+  },
+  {
     "revision": "128b1a7eb8c7fb9ae651e2c3287e53f0",
     "url": "/agency-travel-story/static/media/rome-city.128b1a7e.jpg"
   },
@@ -842,6 +978,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6d44accfcb8333c753654b1f52fc6a08",
     "url": "/agency-travel-story/static/media/ship_min.6d44accf.jpg"
+  },
+  {
+    "revision": "f7d9dd9d52625387981c3b44594a402f",
+    "url": "/agency-travel-story/static/media/shopping.f7d9dd9d.jpg"
+  },
+  {
+    "revision": "192271582fbbe446d399bd18e680c93f",
+    "url": "/agency-travel-story/static/media/shopping_min.19227158.jpg"
   },
   {
     "revision": "a5c23ed887dedb41820b642a3ab77597",
@@ -1004,6 +1148,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agency-travel-story/static/media/westerplatte_min.619f5472.jpg"
   },
   {
+    "revision": "f7c893ad8e2bc0776508ebb14ffa3bb6",
+    "url": "/agency-travel-story/static/media/whiteWine.f7c893ad.jpg"
+  },
+  {
+    "revision": "9f4b91ed4a1341e56fc8770147efe426",
+    "url": "/agency-travel-story/static/media/whiteWine_min.9f4b91ed.jpg"
+  },
+  {
     "revision": "d1c696cdf11e988ee4516cc9fb2448d2",
     "url": "/agency-travel-story/static/media/windmills.d1c696cd.jpg"
   },
@@ -1012,12 +1164,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agency-travel-story/static/media/windmills_min.12a150a8.jpg"
   },
   {
+    "revision": "20d1c711ec8c4a78ef0ec7d591ad7059",
+    "url": "/agency-travel-story/static/media/wine.20d1c711.jpg"
+  },
+  {
     "revision": "a91eb085ba1cb353fa6879ea8df820ec",
     "url": "/agency-travel-story/static/media/wine.a91eb085.jpg"
   },
   {
+    "revision": "f1a74f1401a933ae60ddcf4970b36fd1",
+    "url": "/agency-travel-story/static/media/wine420.f1a74f14.jpg"
+  },
+  {
+    "revision": "279f4014d7a9bc0ab5438990d4400b2f",
+    "url": "/agency-travel-story/static/media/wine_min.279f4014.jpg"
+  },
+  {
     "revision": "d28e894af6e1492183c3a0918c349b51",
     "url": "/agency-travel-story/static/media/wine_min.d28e894a.jpg"
+  },
+  {
+    "revision": "231d26579c9748d403a37d4c348d35bc",
+    "url": "/agency-travel-story/static/media/woman.231d2657.jpg"
+  },
+  {
+    "revision": "dd5968b04b84bcd4c7ec2972cf5d3b86",
+    "url": "/agency-travel-story/static/media/woman_min.dd5968b0.jpg"
   },
   {
     "revision": "f8b5917b284a90bf9627f91f45c36771",
