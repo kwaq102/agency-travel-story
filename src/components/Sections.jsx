@@ -8,6 +8,7 @@ import Pilgrimage from './Pilgrimage'
 import CityBreak from './CityBreak'
 import Camp from './Camp'
 import OurTeam from './OurTeam'
+import ThemedTrips from './ThemedTrips'
 
 
 const Sections = () => {
@@ -20,6 +21,7 @@ const Sections = () => {
                 <Pilgrimage />
                 <Camp />
                 <CityBreak />
+                <ThemedTrips />
                 <Slogan />
                 <WhyUs />
                 <OurTeam />

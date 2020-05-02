@@ -20,6 +20,7 @@ import Vienna from './cityBreak/Vienna';
 import London from './cityBreak/London';
 import Madrid from './cityBreak/Madrid';
 import Paris from './cityBreak/Paris';
+import Berlin from './cityBreak/Berlin';
 
 
 const CityBreak = () => {
@@ -32,6 +33,7 @@ const CityBreak = () => {
             <Route path="/london" component={London} />
             <Route path="/madrid" component={Madrid} />
             <Route path="/paris" component={Paris} />
+            <Route path="/berlin" component={Berlin} />
 
             <section className="city-break" id="city-break">
                 <Fade right cascade><h1>City Break</h1></Fade>
@@ -125,15 +127,11 @@ const CityBreak = () => {
                             <img src={berlin} alt="" />
                         </div>
                         <h2>Kosmopolityczny Berlin</h2>
-                        <h3>jakiś tam cytat</h3>
-                        <p>Berlin berlin.......................... <span>ktoś mądry</span></p>
+                        <p>Berlin to przede wszystkim zmienność. To miasto cierpi na wieczną niestałość, zmienia się nieustannie i to określa jego tożsamość. Nie ma miasta, które tyle razy wnosiło się na szczyty potęgi, by potem upaść na samo dno. Stolica żadnego kraju nie budziła takiej nienawiści, strachu i miłości.<span>Rory Maclean</span></p>
 
                         <button>
-                            <a href="">Czytaj więcej</a>
-                            {/* <Link to="/spain">czytaj więcej</Link> */}
+                            <Link to="/berlin">czytaj więcej</Link>
                         </button>
-
-                        {/* <Route path="/spain" component={Spain} /> */}
                     </div></Fade>
                 </div>
 

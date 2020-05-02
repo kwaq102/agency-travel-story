@@ -53,7 +53,8 @@ class Header extends Component {
                     </div>
                     <Navigation />
                     <div className="header-text">
-                        <h1 data-text="Biuro podróży Travel Story"></h1>
+                        <h1 data-text="Biuro Turystyczno-Pielgrzymkowe"></h1>
+                        <h2 data-text="Travel Story"></h2>
                         <h3 data-text="Wejdź do niesamowitego świata podróży"></h3>
                     </div>
                 </header>

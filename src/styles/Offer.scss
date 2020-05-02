@@ -13,6 +13,23 @@ section.offer {
     div {
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+
+        p {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 80%;
+            width: 342px;
+            padding: 10px 20px;
+            line-height: 150%;
+            text-align: justify;
+            background-color: white;
+            transform: scaleY(0);
+            transition: .2s linear;
+            font-size: 14px;
+        }
 
         img {
             padding: 10px;
@@ -88,14 +105,35 @@ section.offer {
 
         .trip {
             animation-duration: 1587ms !important;
+            overflow: hidden;
+            position: relative;
+
+            p.show {
+                width: 342px;
+                transform: scaleY(1);
+            }
         }
 
         .camp {
             animation-duration: 1000ms !important;
+            overflow: hidden;
+            position: relative;
+
+            p.show {
+                width: 342px;
+                transform: scaleY(1);
+            }
         }
 
-        .pilgrimage {
+        .pilgrimages {
             animation-duration: 1260ms !important;
+            overflow: hidden;
+            position: relative;
+
+            p.show {
+                width: 342px;
+                transform: scaleY(1);
+            }
         }
 
     }
