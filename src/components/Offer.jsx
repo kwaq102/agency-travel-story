@@ -33,16 +33,6 @@ class Offer extends Component {
             showCampText: !this.state.showCampText,
         })
     }
-    handleClickCity = () => {
-        this.setState({
-            showCityText: !this.state.showCityText,
-        })
-    }
-    handleClickThemedTrip = () => {
-        this.setState({
-            showthemedTripText: !this.state.showthemedTripText,
-        })
-    }
 
     render() {
         return (
@@ -67,18 +57,6 @@ class Offer extends Component {
                             <img src={camp} alt="" />
                             <h5>Obozy młodzieżowe</h5>
                             <button onClick={this.handleClickCamp}>{this.state.showCampText ? 'UKRYJ' : 'DOWIEDZ SIĘ WIĘCEJ'}</button></div>
-
-                        <div className="city">
-                            <p className={this.state.showCityText ? "show" : null}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate totam fugiat commodi accusantium possimus nisi fuga quod quibusdam aspernatur! Laboriosam dolorem incidunt iusto nam corporis doloremque culpa veritatis accusamus reprehenderit? isi fuga quod quibusdam aspernatur! Laboriosam dolorem incidunt iusto</p>
-                            <img src={city} alt="" />
-                            <h5>City Break</h5>
-                            <button onClick={this.handleClickCity}>{this.state.showCityText ? 'UKRYJ' : 'DOWIEDZ SIĘ WIĘCEJ'}</button></div>
-
-                        <div className="themedTrip">
-                            <p className={this.state.showthemedTripText ? "show" : null}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate totam fugiat commodi accusantium possimus nisi fuga quod quibusdam aspernatur! Laboriosam dolorem incidunt iusto nam corporis doloremque culpa veritatis accusamus reprehenderit? isi fuga quod quibusdam aspernatur! Laboriosam dolorem incidunt iusto</p>
-                            <img src={newYear} alt="" />
-                            <h5>Wycieczki tematyczne</h5>
-                            <button onClick={this.handleClickThemedTrip}>{this.state.showthemedTripText ? 'UKRYJ' : 'DOWIEDZ SIĘ WIĘCEJ'}</button></div>
                     </div></Fade>
 
                 </section>

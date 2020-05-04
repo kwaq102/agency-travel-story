@@ -10,6 +10,10 @@ import whiteWine from '../../img/wine/whiteWine.jpg';
 import whiteWine1 from '../../img/wine/whiteWine_min.jpg';
 import wine from '../../img/wine/wine.jpg';
 import wine1 from '../../img/wine/wine_min.jpg';
+import paris from '../../img/wine/paris.jpg';
+import paris1 from '../../img/wine/paris_min.jpg';
+import eiffelTower from '../../img/wine/eiffelTower.jpg';
+import eiffelTower1 from '../../img/wine/eiffelTower_min.jpg';
 
 const images = [
     {
@@ -23,6 +27,14 @@ const images = [
     {
         original: wine,
         thumbnail: wine1,
+    },
+    {
+        original: paris,
+        thumbnail: paris1,
+    },
+    {
+        original: eiffelTower,
+        thumbnail: eiffelTower1,
     },
 ];
 

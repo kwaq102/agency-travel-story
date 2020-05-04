@@ -15,6 +15,7 @@ import SpainBarca from './SpainBarca';
 import Portugal from './Portugal';
 import France from './France';
 import Croatia from './Croatia';
+import Italy from './Italy';
 
 
 
@@ -26,6 +27,7 @@ const Tours = () => {
             <Route path="/portugal" component={Portugal} />
             <Route path="/france" component={France} />
             <Route path="/croatia" component={Croatia} />
+            <Route path="/italy" component={Italy} />
 
 
             <section className="tours" id="tours">
@@ -68,7 +70,7 @@ const Tours = () => {
                             <img src={france} alt="" />
                         </div>
                         <h2>Francja</h2>
-                        <h3>Francja</h3>
+                        <h3>Francuskie Impresje</h3>
                         <p>Każdy człowiek ma dwie ojczyzny: swoją własną oraz Francję. <span>Henri de Bornier </span></p>
                         <button>
                             <Link to="/france">czytaj więcej</Link>
@@ -81,14 +83,11 @@ const Tours = () => {
                             <img src={italy} alt="" />
                         </div>
                         <h2>Włochy</h2>
-                        <h3>Włochy</h3>
+                        <h3>Słoneczna Italia</h3>
                         <p>Włochy to kraj pełen licznych pokus pociągających do zboczenia z drogi prostej i uczciwej.<span>Zygmunt III Waza</span></p>
-
                         <button>
-                            <Link to="/spain">czytaj więcej</Link>
+                            <Link to="/italy">czytaj więcej</Link>
                         </button>
-
-                        {/* <Route path="/spain" component={Spain} /> */}
                     </div></Fade>
 
                     <Fade><div className="croatia">
