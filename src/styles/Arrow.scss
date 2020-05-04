@@ -1,0 +1,25 @@
+div.arrowTop {
+    position: fixed;
+    bottom: 7%;
+    right: 3%;
+    z-index: 60;
+    color: rgba(0, 0, 0, .2);
+    transform: scale(0);
+    transition: .3s;
+
+    i {
+        font-size: 32px;
+    }
+}
+
+
+div.arrowTop.showArrow {
+    transform: scale(1);
+}
+
+div.arrowTop.showArrow:hover {
+    color: #43b1c9;
+    cursor: pointer;
+    transform: scale(1.1);
+
+}

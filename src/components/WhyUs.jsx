@@ -74,13 +74,12 @@ class WhyUs extends Component {
                             <img className="eiffla" src={eiffla} alt="wieża Eiffla" />
                             <img className="beach" src={beach} alt="Plaża" />
                         </div>
-
                         <Fade right cascade><div className="advantage">
                             <Pulse><h1>Nasze zalety</h1></Pulse>
                             <Fade right cascade><div>
                                 <div className={this.state.quality ? "arrow active" : "arrow"} onClick={this.handleChangeQuality}>
                                     <div><i class="fas fa-chevron-up"></i></div>
-                                    <h4> najwyższa jakość usług</h4>
+                                    <h4>najwyższa jakość usług</h4>
                                 </div>
                                 <p className={this.state.quality ? "active" : null}>Świadczymy usługi na najwyższym poziomie. Współpracujemy z najlepszymi kontrahentami, hotelami, pilotami oraz przewodnikami. Wszystkie czynniki, mające wpływ na nasze usługi dobierane są z największą starannością i dbałością o każdy detal. Nad planem Państwa wyprawy, pracują doświadczeni profesjonaliści, którzy wkładają całe serce, aby Państwa podróż była udana. </p>
                             </div></Fade>
@@ -101,9 +100,7 @@ class WhyUs extends Component {
                                 <p className={this.state.experience ? "active" : null}>Travel Story powstało z wielkiej pasji do podróży. Od zawsze podróżowaliśmy po najróżniejszych zakątach Europy i świata. Miejsca, w które Państwa zabieramy, odwiedziliśmy wielokrotnie i doskonale je znamy. Wiemy, co warto zobaczyć, gdzie zjeść, co kupić. Mamy wieloletnie doświadczenie w planowaniu i organizacji podróży, oraz w ich pilotowaniu. Zabieramy Państwa w miejsca, które kochamy, czasami traktujemy jak drugi dom, dzielimy się z Państwem naszą pasją. Mimo naszego doświadczenia, nigdy nie działamy schematycznie. I choćbyśmy jechali w dane miejsce setny raz, to każda podróż jest dla nas nowym wyzwaniem i wspaniałym przeżyciem. </p>
                             </div>
                         </div></Fade>
-
                     </div>
-
                     <Slide bottom cascade><div className="boxes">
                         <div>
                             <img className="whyUs-icon" src={place} alt=""></img>
