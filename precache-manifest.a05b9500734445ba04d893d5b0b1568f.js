@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8856dea36d87ebe9c15a05ea386eca4",
+    "revision": "ceb3c48e5c01f41d0881d8de55d329a3",
     "url": "/agency-travel-story/index.html"
   },
   {
-    "revision": "72e2f56f5764c753f944",
+    "revision": "d873c6c123c15a8027d3",
     "url": "/agency-travel-story/static/css/2.8730d5d4.chunk.css"
   },
   {
-    "revision": "f285a974ab2e64dbe890",
-    "url": "/agency-travel-story/static/css/main.31b9ad6a.chunk.css"
+    "revision": "37387a372a6ca3826107",
+    "url": "/agency-travel-story/static/css/main.5563bdac.chunk.css"
   },
   {
-    "revision": "72e2f56f5764c753f944",
-    "url": "/agency-travel-story/static/js/2.9554010b.chunk.js"
+    "revision": "d873c6c123c15a8027d3",
+    "url": "/agency-travel-story/static/js/2.1035ea91.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/agency-travel-story/static/js/2.9554010b.chunk.js.LICENSE.txt"
+    "url": "/agency-travel-story/static/js/2.1035ea91.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f285a974ab2e64dbe890",
-    "url": "/agency-travel-story/static/js/main.b093c6b3.chunk.js"
+    "revision": "37387a372a6ca3826107",
+    "url": "/agency-travel-story/static/js/main.251f5b57.chunk.js"
   },
   {
     "revision": "398a5fe3d9bbaec50018",
@@ -358,10 +358,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4e50dd80b3c162f5c31d1236a36b0e7b",
     "url": "/agency-travel-story/static/media/church_min.4e50dd80.jpg"
-  },
-  {
-    "revision": "43b76c15a804d4179e97d863012644c7",
-    "url": "/agency-travel-story/static/media/city.43b76c15.jpg"
   },
   {
     "revision": "e6a8ca50acc9d52f77fdc6ce88f5ecff",
@@ -858,10 +854,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ca11a6dcd93246ee2a41c088f3a31eb8",
     "url": "/agency-travel-story/static/media/neptun_min.ca11a6dc.jpg"
-  },
-  {
-    "revision": "2df7b85835a7c79394660bd9cd490073",
-    "url": "/agency-travel-story/static/media/newYear.2df7b858.jpg"
   },
   {
     "revision": "e822bc0e774aec762ab43bc80fecda76",
