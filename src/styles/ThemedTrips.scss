@@ -129,5 +129,42 @@ section.themedTrips {
             }
         }
     }
+}
 
+@media(max-width: 1200px) {
+    section.themedTrips {
+        h1 {
+            top: 20px;
+            margin: 0;
+            padding: 40px 0 0 0;
+            font-size: 40px;
+        }
+
+        div {
+            width: 900px;
+        }
+    }
+}
+
+@media(max-width: 900px) {
+    section.themedTrips {
+        div {
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    section.themedTrips {
+
+        h1 {
+            width: 80%;
+            margin-bottom: 5px;
+            font-size: 36px;
+        }
+
+        div {
+            padding: 160px 0 0 0;
+        }
+    }
 }

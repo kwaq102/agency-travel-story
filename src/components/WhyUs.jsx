@@ -16,6 +16,7 @@ class WhyUs extends Component {
         quality: true,
         need: false,
         experience: false,
+        kutas: false,
     }
 
     handleChangeQuality = () => {
@@ -68,7 +69,6 @@ class WhyUs extends Component {
         return (
             <>
                 <section className="whyUs" id="whyUs">
-
                     <div>
                         <div className="whyUs-photos">
                             <img className="eiffla" src={eiffla} alt="wieża Eiffla" />

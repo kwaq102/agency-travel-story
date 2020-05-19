@@ -6,9 +6,6 @@ import Fade from 'react-reveal/Fade';
 import trip from '../img/trip.jpg';
 import camp from '../img/camp.jpg';
 import pilgrimage from '../img/pielgrzymka.jpg';
-import newYear from '../img/newYear.jpg';
-import city from '../img/city.jpg';
-
 class Offer extends Component {
     state = {
         showTripText: false,
@@ -41,6 +38,7 @@ class Offer extends Component {
                     <Pulse><h1>Nasz oferta</h1></Pulse>
 
                     <Fade bottom cascade> <div>
+
                         <div className="trip">
                             <p className={this.state.showTripText ? "show" : null}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate totam fugiat commodi accusantium possimus nisi fuga quod quibusdam aspernatur! Laboriosam dolorem incidunt iusto nam corporis doloremque culpa veritatis accusamus reprehenderit?</p>
                             <img src={trip} alt="" />
@@ -57,6 +55,7 @@ class Offer extends Component {
                             <img src={camp} alt="" />
                             <h5>Obozy młodzieżowe</h5>
                             <button onClick={this.handleClickCamp}>{this.state.showCampText ? 'UKRYJ' : 'DOWIEDZ SIĘ WIĘCEJ'}</button></div>
+
                     </div></Fade>
 
                 </section>

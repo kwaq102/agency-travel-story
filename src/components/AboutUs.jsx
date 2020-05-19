@@ -5,8 +5,6 @@ import Pulse from 'react-reveal/Pulse';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 
-
-
 const AboutUs = () => {
     return (
         <>
@@ -19,7 +17,9 @@ const AboutUs = () => {
                     <span>Zapraszam serdecznie</span>
                         <span>Anna Gajewska</span>
                     </p></Fade>
-                    <Zoom> <img src={aboutPhoto} alt="" /></Zoom>
+                    <Zoom> <img src={aboutPhoto} alt="" />
+                        <div className="shadow"></div>
+                    </Zoom>
                 </div>
             </section>
         </>

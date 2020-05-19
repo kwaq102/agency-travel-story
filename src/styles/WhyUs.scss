@@ -5,7 +5,6 @@ section.whyUs {
     div {
         display: flex;
 
-
         .whyUs-photos {
             position: relative;
 
@@ -28,7 +27,6 @@ section.whyUs {
         .advantage {
             display: block;
             position: relative;
-
 
             h1 {
                 position: absolute;
@@ -117,13 +115,11 @@ section.whyUs {
                     line-height: 150%;
                     color: rgba(0, 0, 0, 0.8);
                     overflow: hidden;
-                    // transform: scale(0);
                     transition: .2s linear;
                 }
 
                 p.active {
                     height: 130px;
-                    // transform: scale(1),
                 }
             }
         }
@@ -158,5 +154,223 @@ section.whyUs {
             }
         }
     }
+}
 
+@media (max-width: 1400px) {
+    section.whyUs {
+        padding: 120px calc((100% - 1000px) / 2) 80px calc((100% - 1000px) / 2);
+
+        div {
+            .whyUs-photos {
+
+                .eiffla {
+                    height: 400px;
+                    margin-right: 60px;
+                    margin-left: 30px;
+                }
+
+                .beach {
+                    width: 25%;
+                    left: -20px;
+                }
+            }
+
+            .advantage {
+                div {
+                    div.arrow {
+                        div {
+                            width: 36px;
+                            height: 36px;
+
+                            i.fas {
+                                line-height: 36px;
+                                font-size: 15px;
+                            }
+                        }
+                    }
+
+                    h4 {
+                        font-size: 18px;
+                        line-height: 36px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                    }
+
+                }
+            }
+        }
+
+        div.boxes {
+
+            div {
+                width: 350px;
+
+                img.whyUs-icon {
+                    width: 20%;
+                }
+
+                div {
+                    h4 {
+                        font-size: 16px;
+                    }
+
+                    p {
+                        font-size: 12px
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    section.whyUs {
+        padding: 120px calc((100% - 900px) / 2) 30px calc((100% - 900px) / 2);
+
+        div {
+            .whyUs-photos {
+
+                .eiffla {
+                    height: 300px;
+                }
+
+                .beach {
+                    width: 25%;
+                    left: 0;
+                }
+            }
+
+            .advantage {
+                h1 {
+                    font-size: 40px;
+                }
+            }
+        }
+
+        div.boxes {
+
+            div {
+                width: 300px;
+
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1024px) {
+    section.whyUs {
+        padding-top: 80px;
+
+        div {
+            flex-direction: column;
+
+            .whyUs-photos {
+
+                .eiffla {
+                    height: 400px;
+                    max-width: 333px;
+                    margin-right: auto;
+                    margin-left: auto;
+                }
+
+                .beach {
+                    width: 10%;
+                    left: 30%;
+                }
+            }
+
+            .advantage {
+                position: static;
+                width: 70%;
+                margin: 20px auto 20px auto;
+
+                h1 {
+                    position: static;
+                    margin: 20px 0;
+                    text-align: center;
+                }
+
+                div {
+                    a div.arrow {
+
+                        div {
+                            flex-direction: row;
+                        }
+                    }
+                }
+            }
+        }
+
+        div.boxes {
+            flex-direction: column;
+            margin-top: 0;
+
+            div {
+                flex-direction: row;
+                margin: 10px auto;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    section.whyUs {
+        div {
+
+            .advantage {
+                h1 {
+                    margin-bottom: 5px;
+                    font-size: 32px;
+                }
+
+                div {
+
+                    div.arrow {
+                        div {
+                            width: 32px;
+                            height: 32px;
+
+                            i.fas {
+                                font-size: 16px;
+                                line-height: 32px;
+                            }
+                        }
+
+                        h4 {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media(max-width: 600px) {
+    section.whyUs {
+        div {
+
+            .advantage {
+                width: 90%;
+
+                h1 {
+                    margin-bottom: 5px;
+                    font-size: 32px;
+                }
+
+                div {
+
+                    div.arrow {
+                        padding-left: 15px;
+                    }
+                }
+            }
+
+
+        }
+    }
 }

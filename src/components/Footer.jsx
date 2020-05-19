@@ -16,7 +16,7 @@ const Footer = () => {
 
                 <div className="footer-centre">
                     <nav className="footer-nav">
-                        <ul className="footer-list-right">
+                        <ul className="footer-list-left">
                             <li>
                                 <Link
                                     activeClass="active"
@@ -69,7 +69,7 @@ const Footer = () => {
                                 >Pielgrzymki</Link></li>
                         </ul>
 
-                        <ul className="footer-list-left">
+                        <ul className="footer-list-right">
 
                             <li>
                                 <Link

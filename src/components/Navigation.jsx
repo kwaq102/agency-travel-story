@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Burger from './Burger';
 
 import { Link } from 'react-scroll';
 import '../styles/Navigation.scss'
@@ -6,11 +7,23 @@ import '../styles/Navigation.scss'
 
 
 class Navigation extends Component {
+    state = {
+        showBurger: false,
+    }
 
+    handleClickBurger = () => {
+        this.setState({
+            showBurger: !this.state.showBurger
+        })
+    }
     render() {
         return (
             <div>
-                <nav>
+                <Burger
+                    showBurger={this.state.showBurger}
+                    handleClickBurger={this.handleClickBurger}
+                />
+                <nav className={this.state.showBurger ? "header-navigation show" : "header-navigation"}>
                     <ul>
                         <li>
                             <Link

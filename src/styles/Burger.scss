@@ -1,0 +1,17 @@
+div.burger {
+    display: none;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    line-height: 30px;
+    z-index: 10;
+    cursor: pointer;
+    z-index: 100;
+}
+
+@media(max-width: 1024px) {
+    div.burger {
+        display: block;
+    }
+}

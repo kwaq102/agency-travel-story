@@ -18,8 +18,9 @@ section.camp {
 
     div {
         width: 1200px;
-        margin: 20px auto 50px auto;
+        margin: 20px auto 0 auto;
         padding-top: 150px;
+        padding-bottom: 50px;
         display: flex;
         flex-basis: 350px;
         justify-content: space-around;
@@ -87,14 +88,12 @@ section.camp {
                 letter-spacing: 1px;
                 line-height: 180%;
 
-
                 span {
                     display: block;
                     margin-top: 10px;
                     margin-left: 50%;
                     font-style: normal;
                 }
-
             }
 
             button {
@@ -110,7 +109,6 @@ section.camp {
                     text-transform: uppercase;
                     text-decoration: none;
                     color: #000;
-
                 }
             }
 
@@ -132,5 +130,42 @@ section.camp {
             }
         }
     }
+}
 
+@media(max-width: 1200px) {
+    section.camp {
+        h1 {
+            top: 20px;
+            margin: 0;
+            padding: 40px 0 0 0;
+            font-size: 40px;
+        }
+
+        div {
+            width: 900px;
+        }
+    }
+}
+
+@media(max-width: 900px) {
+    section.camp {
+        div {
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    section.camp {
+
+        h1 {
+            width: 80%;
+            margin-bottom: 5px;
+            font-size: 36px;
+        }
+
+        div {
+            padding: 110px 0 10px 0;
+        }
+    }
 }

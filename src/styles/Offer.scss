@@ -21,7 +21,7 @@ section.offer {
             top: 0;
             left: 0;
             height: 83%;
-            width: 342px;
+            width: 100%;
             padding: 10px 20px;
             line-height: 150%;
             text-align: justify;
@@ -79,11 +79,7 @@ section.offer {
             img {
                 border: none;
                 padding: 10px;
-                // padding-left: 5px;
-                // padding-right: 5px;
             }
-
-            h5 {}
 
             h5:hover {
                 color: #43b1c9;
@@ -158,5 +154,82 @@ section.offer {
             }
         }
 
+    }
+}
+
+@media(max-width:1400px) {
+    section.offer {
+        width: 1000px;
+
+        div {
+
+            img {
+                width: 100%;
+            }
+
+            div {
+                width: 300px;
+            }
+
+            .trip,
+            .camp,
+            .pilgrimages {
+
+                p.show {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:1200px) {
+    section.offer {
+        h1 {
+            font-size: 40px;
+        }
+    }
+}
+
+@media(max-width:1024px) {
+    section.offer {
+        width: 900px;
+        margin: 0 auto;
+        padding-top: 60px;
+
+        div {
+            div {
+                width: 250px;
+            }
+        }
+
+        h1 {
+            margin: 0;
+        }
+    }
+}
+
+@media(max-width:900px) {
+    section.offer {
+        width: 100%;
+
+        div {
+            margin: 20px auto;
+            display: block;
+
+            div {
+                width: 300px;
+            }
+        }
+    }
+}
+
+@media(max-width:768px) {
+    section.offer {
+
+        h1 {
+            margin-bottom: 5px;
+            font-size: 36px;
+        }
     }
 }

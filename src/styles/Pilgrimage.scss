@@ -19,7 +19,7 @@
          padding-top: 100px;
          display: flex;
          flex-basis: 350px;
-         margin: 20px 10px;
+         margin: 20px auto 10px auto;
          justify-content: space-around;
          flex-wrap: wrap;
 
@@ -129,5 +129,43 @@
              }
          }
      }
+ }
 
+ @media(max-width: 1200px) {
+     section.section-pilgrimage {
+         h1 {
+             top: 20px;
+             margin: 0;
+             padding: 40px 0 0 0;
+             font-size: 40px;
+         }
+
+         div {
+             width: 900px;
+         }
+     }
+ }
+
+ @media(max-width: 900px) {
+     section.section-pilgrimage {
+         padding-bottom: 20px;
+
+         div {
+             width: 100%;
+         }
+     }
+ }
+
+ @media(max-width: 768px) {
+     section.section-pilgrimage {
+         h1 {
+             margin-bottom: 5px;
+             font-size: 36px;
+         }
+
+         div {
+             padding: 60px 0 0 0;
+         }
+
+     }
  }
