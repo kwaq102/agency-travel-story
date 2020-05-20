@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/agency-travel-story/static/css/main.5563bdac.chunk.css",
+    "main.css": "/agency-travel-story/static/css/main.62d2e905.chunk.css",
     "main.js": "/agency-travel-story/static/js/main.251f5b57.chunk.js",
     "main.js.map": "/agency-travel-story/static/js/main.251f5b57.chunk.js.map",
     "runtime-main.js": "/agency-travel-story/static/js/runtime-main.68032472.js",
@@ -9,10 +9,10 @@
     "static/js/2.1035ea91.chunk.js": "/agency-travel-story/static/js/2.1035ea91.chunk.js",
     "static/js/2.1035ea91.chunk.js.map": "/agency-travel-story/static/js/2.1035ea91.chunk.js.map",
     "index.html": "/agency-travel-story/index.html",
-    "precache-manifest.a05b9500734445ba04d893d5b0b1568f.js": "/agency-travel-story/precache-manifest.a05b9500734445ba04d893d5b0b1568f.js",
+    "precache-manifest.9213d04c336be766a39b94b074f5298c.js": "/agency-travel-story/precache-manifest.9213d04c336be766a39b94b074f5298c.js",
     "service-worker.js": "/agency-travel-story/service-worker.js",
     "static/css/2.8730d5d4.chunk.css.map": "/agency-travel-story/static/css/2.8730d5d4.chunk.css.map",
-    "static/css/main.5563bdac.chunk.css.map": "/agency-travel-story/static/css/main.5563bdac.chunk.css.map",
+    "static/css/main.62d2e905.chunk.css.map": "/agency-travel-story/static/css/main.62d2e905.chunk.css.map",
     "static/js/2.1035ea91.chunk.js.LICENSE.txt": "/agency-travel-story/static/js/2.1035ea91.chunk.js.LICENSE.txt",
     "static/media/about.jpg": "/agency-travel-story/static/media/about.2c43e739.jpg",
     "static/media/ancient.jpg": "/agency-travel-story/static/media/ancient.7bc2f045.jpg",
@@ -325,7 +325,7 @@
     "static/js/runtime-main.68032472.js",
     "static/css/2.8730d5d4.chunk.css",
     "static/js/2.1035ea91.chunk.js",
-    "static/css/main.5563bdac.chunk.css",
+    "static/css/main.62d2e905.chunk.css",
     "static/js/main.251f5b57.chunk.js"
   ]
 }
