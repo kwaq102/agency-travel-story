@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "828fdb301deb2ea42a0b88b542dfa2b3",
+    "revision": "b42d9810c57d270495c5e2daa9a97a2e",
     "url": "/agency-travel-story/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agency-travel-story/static/css/2.8730d5d4.chunk.css"
   },
   {
-    "revision": "51264c40c367bcf02524",
-    "url": "/agency-travel-story/static/css/main.cfcce8f3.chunk.css"
+    "revision": "8851058bd9767f7f711a",
+    "url": "/agency-travel-story/static/css/main.f4345010.chunk.css"
   },
   {
     "revision": "d873c6c123c15a8027d3",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agency-travel-story/static/js/2.1035ea91.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "51264c40c367bcf02524",
+    "revision": "8851058bd9767f7f711a",
     "url": "/agency-travel-story/static/js/main.8ef6cce9.chunk.js"
   },
   {
