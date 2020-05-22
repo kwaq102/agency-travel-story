@@ -241,7 +241,7 @@ footer {
 
             .footer-right {
                 display: block;
-                width: 90%;
+                width: 100%;
                 margin-top: 10px;
                 margin-bottom: 10px;
 
@@ -403,11 +403,14 @@ footer {
 
 
             .footer-right {
+
                 .contact {
                     display: block;
-                    margin-left: calc(50% - 100px);
 
-                    div {}
+                    div {
+                        width: 60%
+                    }
+
                 }
             }
         }
