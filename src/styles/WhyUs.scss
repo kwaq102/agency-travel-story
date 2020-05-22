@@ -346,7 +346,6 @@ section.whyUs {
                 }
             }
         }
-
     }
 }
 
@@ -367,10 +366,93 @@ section.whyUs {
                     div.arrow {
                         padding-left: 15px;
                     }
+
+                    p.active {
+                        height: 180px;
+                    }
+
+                    p.active.quality {
+                        height: 150px;
+                    }
                 }
             }
+        }
+    }
+}
 
+@media(max-width: 480px) {
+    section.whyUs {
+        div {
 
+            .advantage {
+                h1 {
+                    font-size: 30px;
+                }
+
+                div {
+
+                    div.arrow {
+                        div {
+                            width: 28px;
+                            height: 28px;
+
+                            i.fas {
+                                font-size: 14px;
+                                line-height: 28px;
+                            }
+                        }
+
+                        h4 {
+                            font-size: 14px;
+                        }
+                    }
+
+                    p {
+                        font-size: 10px;
+                    }
+
+                    p.active.quality {
+                        height: 120px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 360px) {
+    section.whyUs {
+        div {
+
+            .advantage {
+
+                div {
+
+                    div.arrow {
+                        div {
+                            width: 24px;
+                            height: 24px;
+
+                            i.fas {
+                                font-size: 12px;
+                                line-height: 24px;
+                            }
+                        }
+
+                        h4 {
+                            font-size: 12px;
+                        }
+                    }
+
+                    p {
+                        font-size: 10px;
+                    }
+
+                    p.active {
+                        height: 215px;
+                    }
+                }
+            }
         }
     }
 }

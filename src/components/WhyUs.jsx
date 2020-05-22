@@ -81,7 +81,7 @@ class WhyUs extends Component {
                                     <div><i class="fas fa-chevron-up"></i></div>
                                     <h4>najwyższa jakość usług</h4>
                                 </div>
-                                <p className={this.state.quality ? "active" : null}>Świadczymy usługi na najwyższym poziomie. Współpracujemy z najlepszymi kontrahentami, hotelami, pilotami oraz przewodnikami. Wszystkie czynniki, mające wpływ na nasze usługi dobierane są z największą starannością i dbałością o każdy detal. Nad planem Państwa wyprawy, pracują doświadczeni profesjonaliści, którzy wkładają całe serce, aby Państwa podróż była udana. </p>
+                                <p className={this.state.quality ? "active quality" : "quality"}>Świadczymy usługi na najwyższym poziomie. Współpracujemy z najlepszymi kontrahentami, hotelami, pilotami oraz przewodnikami. Wszystkie czynniki, mające wpływ na nasze usługi dobierane są z największą starannością i dbałością o każdy detal. Nad planem Państwa wyprawy, pracują doświadczeni profesjonaliści, którzy wkładają całe serce, aby Państwa podróż była udana. </p>
                             </div></Fade>
 
                             <div>

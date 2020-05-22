@@ -71,7 +71,6 @@ section.aboutUs {
     section.aboutUs {
         width: 900px;
         margin: 0 auto;
-        padding-top: 20px;
 
         div {
             p {
@@ -127,7 +126,8 @@ section.aboutUs {
         width: 600px;
 
         h1 {
-            margin-bottom: 5px;
+            margin-bottom: 10px;
+            margin-top: 15px;
             font-size: 36px;
         }
 
@@ -147,6 +147,24 @@ section.aboutUs {
 
             p {
                 font-size: 14px;
+            }
+        }
+    }
+}
+
+@media(max-width: 480px) {
+    section.aboutUs {
+        width: 100%;
+
+        h1 {
+            font-size: 30px;
+        }
+
+        div {
+
+            p {
+                font-size: 12px;
+                line-height: 140%;
             }
         }
     }

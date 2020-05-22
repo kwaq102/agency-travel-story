@@ -159,13 +159,58 @@
  @media(max-width: 768px) {
      section.section-pilgrimage {
          h1 {
+             top: 0;
              margin-bottom: 5px;
              font-size: 36px;
+             padding: 0;
          }
 
          div {
-             padding: 60px 0 0 0;
+             padding: 10px 0 0 0;
          }
 
+     }
+ }
+
+ @media(max-width: 480px) {
+     section.section-pilgrimage {
+
+         h1 {
+             font-size: 30px;
+         }
+     }
+ }
+
+ @media(max-width: 360px) {
+     section.section-pilgrimage {
+         padding-bottom: 10px;
+
+         h1 {
+             top: 10px;
+         }
+
+         div {
+             display: block;
+
+             div {
+                 width: 90%;
+
+                 .pilgrimage-photo {
+                     width: 100%;
+                 }
+
+                 h2 {
+                     font-size: 18px;
+                 }
+
+                 h3 {
+                     font-size: 14px;
+                 }
+
+                 p {
+                     font-size: 10px;
+                 }
+             }
+         }
      }
  }

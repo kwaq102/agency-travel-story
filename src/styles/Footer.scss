@@ -11,11 +11,11 @@ footer {
             width: 200px;
 
             div {
+                text-align: center;
 
                 img {
                     display: block;
                     max-height: 161px;
-                    // margin-top: calc(320px/2 - 161px/2);
                 }
             }
         }
@@ -241,11 +241,16 @@ footer {
 
             .footer-right {
                 display: block;
+                width: 90%;
+                margin-top: 10px;
+                margin-bottom: 10px;
 
                 .contact {
+                    display: flex;
 
                     div {
                         display: flex;
+                        justify-content: center;
                     }
 
                     p {
@@ -287,6 +292,8 @@ footer {
 
 @media(max-width: 768px) {
     footer {
+        padding-top: 20px;
+
         div {
             .footer-centre {
                 width: 100%;
@@ -294,7 +301,7 @@ footer {
                 padding: 0;
 
                 .footer-nav {
-                    width: 80%;
+                    width: 90%;
                     margin: 0 auto;
                     justify-content: center;
 
@@ -314,7 +321,7 @@ footer {
                 width: 100%;
 
                 .contact {
-                    width: 60%;
+                    width: 90%;
                     margin: 0 auto;
 
                     p {
@@ -356,6 +363,18 @@ footer {
 @media(max-width: 480px) {
     footer {
         div {
+            .footer-left {
+
+                div {
+
+                    img {
+                        max-height: 130px;
+                        margin-bottom: 10px;
+                        padding-left: 19px;
+                    }
+                }
+            }
+
             .footer-centre {
                 .footer-nav {
 
@@ -381,16 +400,16 @@ footer {
                     }
                 }
             }
+
+
+            .footer-right {
+                .contact {
+                    display: block;
+                    margin-left: calc(50% - 100px);
+
+                    div {}
+                }
+            }
         }
     }
 }
-
-// @media(max-width: 360px) {
-//     footer {
-//         div {
-//             .footer-centre {
-//                 width: 80%;
-//             }
-//         }
-//     }
-// }

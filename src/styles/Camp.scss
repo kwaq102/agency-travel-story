@@ -161,11 +161,57 @@ section.camp {
         h1 {
             width: 80%;
             margin-bottom: 5px;
-            font-size: 36px;
+            padding: 0;
+            font-size: 30px;
         }
 
         div {
-            padding: 110px 0 10px 0;
+            padding: 70px 0 10px 0;
+        }
+    }
+}
+
+
+@media(max-width: 480px) {
+    section.camp {
+
+        h1 {
+            font-size: 30px;
+        }
+    }
+}
+
+@media(max-width: 360px) {
+    section.camp {
+        padding-bottom: 10px;
+        margin-top: 10px;
+
+        h1 {
+            width: 100%;
+        }
+
+        div {
+            display: block;
+
+            div {
+                width: 90%;
+
+                .camp-photo {
+                    width: 100%;
+                }
+
+                h2 {
+                    font-size: 18px;
+                }
+
+                h3 {
+                    font-size: 14px;
+                }
+
+                p {
+                    font-size: 10px;
+                }
+            }
         }
     }
 }

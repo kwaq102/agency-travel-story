@@ -12,6 +12,37 @@ header {
         min-width: 100%;
         min-height: 100%;
         z-index: -1;
+        animation: slider 15s infinite linear;
+    }
+
+    div.bg-photo img:nth-of-type(2) {
+        animation-delay: 5s;
+    }
+
+    div.bg-photo img:nth-of-type(1) {
+        animation-delay: 10s;
+    }
+
+    @keyframes slider {
+        0% {
+            opacity: 0;
+        }
+
+        5% {
+            opacity: 1;
+        }
+
+        33.33% {
+            opacity: 1;
+        }
+
+        38.33% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
     }
 
     .header-logo {
@@ -167,8 +198,12 @@ header {
 
 @media (max-width: 1024px) {
     header {
-        div.bg-photo img {
-            margin-top: 100px;
+        div.bg-photo img:nth-of-type(2) {
+            left: 70%;
+        }
+
+        div.bg-photo img:nth-of-type(3) {
+            left: 70%;
         }
 
         .header-logo {
@@ -200,12 +235,8 @@ header {
 
                 p:nth-child(1) {
                     width: 50%;
-
                     margin: 0;
                     padding: 10px 0 0 20px;
-
-                    margin-block-start: 0 !important;
-                    margin-block-end: 0 !important;
                 }
             }
 
@@ -226,12 +257,6 @@ header {
 
 @media(max-width:900px) {
     header {
-        div.bg-photo img {
-            top: 60%;
-            left: 60%;
-            transform: translate(-50%, -50%);
-        }
-
         div.header-text {
 
             h1,
@@ -249,6 +274,17 @@ header {
 
 @media(max-width:600px) {
     header {
+        div.bg-photo img:nth-of-type(2) {
+            top: 80%;
+        }
+
+        div.bg-photo img:nth-of-type(2) {
+            left: 90%;
+        }
+
+        div.bg-photo img:nth-of-type(3) {
+            left: 90%;
+        }
 
         .header-logo {
             .header-contact {
@@ -263,9 +299,7 @@ header {
                 }
             }
 
-            .logo {
-                // left: 40%;
-            }
+
         }
 
         div.header-text {
@@ -277,6 +311,37 @@ header {
 
             h3 {
                 font-size: 12px;
+            }
+        }
+    }
+}
+
+@media(max-width:480px) {
+    header {
+
+        .header-logo {
+
+            .logo {
+                left: 55%;
+
+                img {
+                    width: 28%;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:480px) {
+    header {
+
+        .header-logo {
+
+            .logo {
+
+                img {
+                    width: 37%;
+                }
             }
         }
     }

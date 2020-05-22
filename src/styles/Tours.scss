@@ -26,7 +26,6 @@ section.tours {
 
         div {
             display: flex;
-            // margin-top: 160px;
             padding-top: 0;
             padding-bottom: 20px;
             flex-direction: column;
@@ -163,11 +162,55 @@ section.tours.blur {
 
         h1 {
             margin-bottom: 5px;
+            padding: 0;
             font-size: 36px;
         }
 
         div {
-            padding: 110px 0 0 0;
+            padding: 90px 0 0 0;
+        }
+    }
+}
+
+@media(max-width: 480px) {
+    section.tours {
+
+        h1 {
+            font-size: 30px;
+        }
+
+        div {
+            padding: 80px 0 0 0;
+        }
+    }
+}
+
+@media(max-width: 360px) {
+    section.tours {
+        padding-bottom: 10px;
+
+        div {
+            display: block;
+
+            div {
+                width: 90%;
+
+                .tour-photo {
+                    width: 100%;
+                }
+
+                h2 {
+                    font-size: 18px;
+                }
+
+                h3 {
+                    font-size: 14px;
+                }
+
+                p {
+                    font-size: 10px;
+                }
+            }
         }
     }
 }
