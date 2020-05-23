@@ -3,3 +3,21 @@ div.gallery {
     margin: 10px auto;
     padding-bottom: 20px;
 }
+
+@media(max-width: 1024px) {
+    div.gallery {
+        width: 70%;
+    }
+}
+
+@media(max-width: 768px) {
+    div.gallery {
+        width: 80%;
+    }
+}
+
+@media(max-width: 768px) {
+    div.gallery {
+        width: 100%;
+    }
+}
