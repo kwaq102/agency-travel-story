@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fdd1bb52bd925f18245c208de8c52393",
+    "revision": "62e9ff6dbea9be19f7242d54f4ed335a",
     "url": "/agency-travel-story/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agency-travel-story/static/css/2.8730d5d4.chunk.css"
   },
   {
-    "revision": "21af0c5050cc1cb31905",
-    "url": "/agency-travel-story/static/css/main.70d5cf1a.chunk.css"
+    "revision": "12b218e37ac7cd0346c0",
+    "url": "/agency-travel-story/static/css/main.c035cc4a.chunk.css"
   },
   {
     "revision": "d873c6c123c15a8027d3",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agency-travel-story/static/js/2.1035ea91.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "21af0c5050cc1cb31905",
-    "url": "/agency-travel-story/static/js/main.8ef6cce9.chunk.js"
+    "revision": "12b218e37ac7cd0346c0",
+    "url": "/agency-travel-story/static/js/main.a380f78c.chunk.js"
   },
   {
     "revision": "398a5fe3d9bbaec50018",
@@ -820,8 +820,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agency-travel-story/static/media/monaco_min.5f94ae33.jpg"
   },
   {
-    "revision": "fbd67031c8b52a681172f15d50085110",
-    "url": "/agency-travel-story/static/media/monika.fbd67031.jpg"
+    "revision": "48b5795b1866998af4d45995987056e8",
+    "url": "/agency-travel-story/static/media/monika.48b5795b.jpg"
   },
   {
     "revision": "77c3ab832b06e5a37033dc8b2dd35852",
