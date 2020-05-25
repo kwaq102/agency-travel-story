@@ -106,21 +106,21 @@ class WhyUs extends Component {
                             <img className="whyUs-icon" src={place} alt=""></img>
                             <div>
                                 <h4>niesamowite miejsca</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur </p>
+                                <p>dają wiele szczęścia</p>
                             </div>
                         </div>
                         <div>
                             <img className="whyUs-icon" src={adventure} alt=""></img>
                             <div>
                                 <h4>wspaniałe przygody</h4>
-                                <p>Lorem ipsum dolor sit amet</p>
+                                <p>to dla duszy jak gody</p>
                             </div>
                         </div>
                         <div>
                             <img className="whyUs-icon" src={unforgettable} alt=""></img>
                             <div>
                                 <h4>niezapomniane wrażenia</h4>
-                                <p>Lorem ipsum dolor sit amet cons</p>
+                                <p>bez zbędnego znużenia</p>
                             </div>
                         </div>
                     </div></Slide>
