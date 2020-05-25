@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navigation from './Navigation';
 import '../styles/Header.scss'
 import logo from '../img/logo_white.png';
+import Fade from 'react-reveal/Fade';
 
 import travelHeaderImg from '../img/travel-header.jpg';
 import travelHeaderImg2 from '../img/venice.jpg';
@@ -27,11 +28,13 @@ const Header = () => {
                     </div>
                 </div>
                 <Navigation />
-                <div className="header-text">
-                    <h1 data-text="Biuro Turystyczno-Pielgrzymkowe"></h1>
-                    <h2 data-text="Travel Story"></h2>
-                    <h3 data-text="Wejdź do niesamowitego świata podróży"></h3>
-                </div>
+                <Fade left cascade>
+                    <div className="header-text">
+                        <h1>Biuro Turystyczno-Pielgrzymkowe</h1>
+                        <h2>Travel Story</h2>
+                        <h3>Wejdź do niesamowitego świata podróży</h3>
+                    </div>
+                </Fade>
             </header>
         </div >
     )
