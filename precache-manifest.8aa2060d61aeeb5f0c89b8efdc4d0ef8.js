@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b6c7fcd72b27c2ee6ac15eb6e1713b6",
+    "revision": "ec589333df6822b9dcf4785b9aa60155",
     "url": "/agency-travel-story/index.html"
   },
   {
-    "revision": "d873c6c123c15a8027d3",
+    "revision": "1bc4d1e62dbcb2f27c8d",
     "url": "/agency-travel-story/static/css/2.8730d5d4.chunk.css"
   },
   {
-    "revision": "dd582b4f7a9e5ba70566",
-    "url": "/agency-travel-story/static/css/main.25cc7848.chunk.css"
+    "revision": "ef591894fb9a990acc99",
+    "url": "/agency-travel-story/static/css/main.6e6f0142.chunk.css"
   },
   {
-    "revision": "d873c6c123c15a8027d3",
-    "url": "/agency-travel-story/static/js/2.1035ea91.chunk.js"
+    "revision": "1bc4d1e62dbcb2f27c8d",
+    "url": "/agency-travel-story/static/js/2.e4c9bc68.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/agency-travel-story/static/js/2.1035ea91.chunk.js.LICENSE.txt"
+    "url": "/agency-travel-story/static/js/2.e4c9bc68.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd582b4f7a9e5ba70566",
-    "url": "/agency-travel-story/static/js/main.87e4492f.chunk.js"
+    "revision": "ef591894fb9a990acc99",
+    "url": "/agency-travel-story/static/js/main.f6a3cc43.chunk.js"
   },
   {
     "revision": "398a5fe3d9bbaec50018",

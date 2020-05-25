@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/agency-travel-story/static/css/main.25cc7848.chunk.css",
-    "main.js": "/agency-travel-story/static/js/main.87e4492f.chunk.js",
-    "main.js.map": "/agency-travel-story/static/js/main.87e4492f.chunk.js.map",
+    "main.css": "/agency-travel-story/static/css/main.6e6f0142.chunk.css",
+    "main.js": "/agency-travel-story/static/js/main.f6a3cc43.chunk.js",
+    "main.js.map": "/agency-travel-story/static/js/main.f6a3cc43.chunk.js.map",
     "runtime-main.js": "/agency-travel-story/static/js/runtime-main.68032472.js",
     "runtime-main.js.map": "/agency-travel-story/static/js/runtime-main.68032472.js.map",
     "static/css/2.8730d5d4.chunk.css": "/agency-travel-story/static/css/2.8730d5d4.chunk.css",
-    "static/js/2.1035ea91.chunk.js": "/agency-travel-story/static/js/2.1035ea91.chunk.js",
-    "static/js/2.1035ea91.chunk.js.map": "/agency-travel-story/static/js/2.1035ea91.chunk.js.map",
+    "static/js/2.e4c9bc68.chunk.js": "/agency-travel-story/static/js/2.e4c9bc68.chunk.js",
+    "static/js/2.e4c9bc68.chunk.js.map": "/agency-travel-story/static/js/2.e4c9bc68.chunk.js.map",
     "index.html": "/agency-travel-story/index.html",
-    "precache-manifest.655955e7462d932fce65f0f9cff1857e.js": "/agency-travel-story/precache-manifest.655955e7462d932fce65f0f9cff1857e.js",
+    "precache-manifest.8aa2060d61aeeb5f0c89b8efdc4d0ef8.js": "/agency-travel-story/precache-manifest.8aa2060d61aeeb5f0c89b8efdc4d0ef8.js",
     "service-worker.js": "/agency-travel-story/service-worker.js",
     "static/css/2.8730d5d4.chunk.css.map": "/agency-travel-story/static/css/2.8730d5d4.chunk.css.map",
-    "static/css/main.25cc7848.chunk.css.map": "/agency-travel-story/static/css/main.25cc7848.chunk.css.map",
-    "static/js/2.1035ea91.chunk.js.LICENSE.txt": "/agency-travel-story/static/js/2.1035ea91.chunk.js.LICENSE.txt",
+    "static/css/main.6e6f0142.chunk.css.map": "/agency-travel-story/static/css/main.6e6f0142.chunk.css.map",
+    "static/js/2.e4c9bc68.chunk.js.LICENSE.txt": "/agency-travel-story/static/js/2.e4c9bc68.chunk.js.LICENSE.txt",
     "static/media/about.jpg": "/agency-travel-story/static/media/about.2c43e739.jpg",
     "static/media/ancient.jpg": "/agency-travel-story/static/media/ancient.7bc2f045.jpg",
     "static/media/ancient_min.jpg": "/agency-travel-story/static/media/ancient_min.cb91aab4.jpg",
@@ -324,8 +324,8 @@
   "entrypoints": [
     "static/js/runtime-main.68032472.js",
     "static/css/2.8730d5d4.chunk.css",
-    "static/js/2.1035ea91.chunk.js",
-    "static/css/main.25cc7848.chunk.css",
-    "static/js/main.87e4492f.chunk.js"
+    "static/js/2.e4c9bc68.chunk.js",
+    "static/css/main.6e6f0142.chunk.css",
+    "static/js/main.f6a3cc43.chunk.js"
   ]
 }
