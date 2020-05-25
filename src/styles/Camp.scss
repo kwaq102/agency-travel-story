@@ -37,8 +37,6 @@ section.camp {
             overflow: hidden;
             background-color: #fff;
 
-
-
             .camp-photo {
                 width: 350px;
                 max-height: 200px;
@@ -118,6 +116,14 @@ section.camp {
 
                 a {
                     color: #fff;
+                }
+            }
+        }
+
+        div.piastowie {
+            p {
+                span {
+                    margin-left: 30%;
                 }
             }
         }

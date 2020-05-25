@@ -19,8 +19,8 @@ const Header = () => {
                 </div>
                 <div className="header-logo">
                     <div className="header-contact">
-                        <p>Zadzwoń +48 997 997 997</p>
-                        <p>Napisz aaaa@102.pl</p>
+                        <p>Zadzwoń +48 661 182 851</p>
+                        <p>Napisz travelstory.style@gmail.com</p>
                     </div>
                     <div className="logo">
                         <img src={logo} alt="logo" />

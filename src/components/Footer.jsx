@@ -128,20 +128,20 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-right">
+
                     <div className="contact">
                         <div className="address">
-                            <span><i class="fas fa-map-marker-alt"></i></span><p> ul. Pszeniczna 27 <br />82-300 Elbląg</p>
+                            <span><i class="fas fa-map-marker-alt"></i></span><p>ul. Londyńska 9b/36<br />66 – 400 Gorzów Wlkp.</p>
                         </div>
                         <div className="phone">
-                            <span><i class="fas fa-phone-alt"></i></span><p>997</p>
-                            <p></p>
+                            <span><i class="fas fa-phone-alt"></i></span><p>+48 661 182 851</p>
                         </div>
                         <div className="email">
-                            <span><i class="fas fa-at"></i></span> <p>kkkk@gmail.com.pl</p>
+                            <span><i class="fas fa-at"></i></span> <p>travelstory.style@gmail.com</p>
                         </div>
                     </div>
                     <div className="socials">
-                        <a className="fb" href=""><i class="fab fa-facebook-square"></i></a>
+                        <a className="fb" href="https://www.facebook.com/Pilot-wycieczek-Anna-Gajewska-1392261364416115"><i class="fab fa-facebook-square"></i></a>
                         <a className="tw" href=""><i class="fab fa-twitter-square"></i></a>
                         <a className="insta" href=""><i class="fab fa-instagram-square"></i></a>
                         <a className="linkedin" href=""><i class="fab fa-linkedin"></i></a>

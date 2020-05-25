@@ -8,7 +8,7 @@ const Rome = () => {
             <section className="trip-program">
                 <div className="title">
                     <h1>Antyczny Rzym</h1>
-                    <h4>BRAK OPISU!!!!!!!!!!!!!!<span>!!!!!!!!!!!!!</span></h4>
+                    <h4>I tak minął Nero, jak mija wicher, pożar, wojna lub mór, a bazylika Piotra panuje odtąd z wyżyn watykańskich miastu i światu. Wedle zaś dawnej bramy Kapeńskiej wznosi się dzisiaj maleńka kapliczka z zatartym nieco napisem Quo vadis, Domine?<span>Henryk Sienkiewicz</span></h4>
                     <div className="hide" onClick={() => window.history.back()}><span>X</span></div>
                 </div>
                 <div className="content">

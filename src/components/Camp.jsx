@@ -29,7 +29,7 @@ const Tours = () => {
                         </div>
                         <h2>Na Szlaku Piastowskim</h2>
                         <h3>Na Szlaku Piastowskim</h3>
-                        <p>opis... opis... opis... opis... opis... opis... opis... opis... opis... opis... opis... <span>Ktoś z ktosiowni</span></p>
+                        <p>Jedno tylko nie ulega żadnej wątpliwości. To mianowicie, że państwo polskie jest znacznie starsze, niż mniemają ci, co historię jego chcą rachować dopiero od chwili chrztu.<span>Paweł Jasienica - Polska Piastów</span></p>
 
                         <button>
                             <Link to="/piastowie">czytaj więcej</Link>
@@ -56,7 +56,9 @@ const Tours = () => {
                         </div>
                         <h2>Bałtyk</h2>
                         <h3>MOŻE NASZE MORZE? CZ. I</h3>
-                        <p>Opisy wymyśłę<span>Anna Gajewska</span></p>
+                        <p>Bałtyk niesie nasze zboże od Kaszubskich w dal wybrzeży,
+                            <br />
+                        Na dnie jego zagrzebany złotożółty bursztyn leży.<span>Artur Oppman</span></p>
                         <button>
                             <Link to="/sea">czytaj więcej</Link>
                         </button>

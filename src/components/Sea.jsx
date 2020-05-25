@@ -7,10 +7,11 @@ const Sea = () => {
         <>
             <section className="trip-program">
                 <div className="title">
-                    <h1>BAŁTYK</h1>
+                    <h1>Bałtyk</h1>
                     <h2>Może nasze morze?</h2>
-                    <h4>Opis wymyślę
-                       <span>Anna Gajewska Tekla</span></h4>
+                    <h4>Bałtyk niesie nasze zboże od Kaszubskich w dal wybrzeży,
+                            <br />
+                        Na dnie jego zagrzebany złotożółty bursztyn leży.<span>Artur Oppman</span></h4>
                     <div className="hide" onClick={() => window.history.back()}><span>X</span></div>
                 </div>
                 <div className="content">

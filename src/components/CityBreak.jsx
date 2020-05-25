@@ -91,7 +91,7 @@ const CityBreak = () => {
                             <img src={rome} alt="" />
                         </div>
                         <h2>Antyczny Rzym</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, ut consequuntur. Eum, voluptate iure aliquam perspiciatis necessitatibus cumque nulla perferendis accusamus aperiam.<span>Kamil Gajewski</span></p>
+                        <p>I tak minął Nero, jak mija wicher, pożar, wojna lub mór, a bazylika Piotra panuje odtąd z wyżyn watykańskich miastu i światu. Wedle zaś dawnej bramy Kapeńskiej wznosi się dzisiaj maleńka kapliczka z zatartym nieco napisem Quo vadis, Domine?<span>Henryk Sienkiewicz</span></p>
 
                         <button>
                             <Link to="/rome">czytaj więcej</Link>
@@ -103,7 +103,10 @@ const CityBreak = () => {
                             <img src={vienna} alt="" />
                         </div>
                         <h2>Muzyczny Wiedeń</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, <span>Kamil Gajewski</span></p>
+                        <p>Ktoś przez radio mówi mi, że dziś w Wiedniu deszcz i mgły.
+                        Skąd to wzruszenie i dreszcz, Wiedeń i ty, i deszcz.
+                        Naddunajski mokry bruk, kroków twoich znany stuk,
+                        blade latarnie na gaz, a w tle zapewne walc.<span>Andrzej Waligórski</span></p>
 
                         <button>
                             <Link to="/vienna">czytaj więcej</Link>

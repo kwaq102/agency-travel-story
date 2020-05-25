@@ -8,7 +8,10 @@ const Vienna = () => {
             <section className="trip-program">
                 <div className="title">
                     <h1>Muzyczny Wiedeń</h1>
-                    <h4>BRAK OPISU!!!!!!!!!!!!!!<span>!!!!!!!!!!!!!</span></h4>
+                    <h4>Ktoś przez radio mówi mi, że dziś w Wiedniu deszcz i mgły.
+                    Skąd to wzruszenie i dreszcz, Wiedeń i ty, i deszcz.
+                    Naddunajski mokry bruk, kroków twoich znany stuk,
+                        blade latarnie na gaz, a w tle zapewne walc.<span>Andrzej Waligórski</span></h4>
                     <div className="hide" onClick={() => window.history.back()}><span>X</span></div>
                 </div>
                 <div className="content">

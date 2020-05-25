@@ -8,9 +8,8 @@ const Piastowie = () => {
             <section className="trip-program">
                 <div className="title">
                     <h1>Na Szlaku Piastowskim</h1>
-                    <h2>Na Szlaku Piastowskim</h2>
-                    <h4>opis..............................
-                       <span> autor</span></h4>
+                    <h4>Jedno tylko nie ulega żadnej wątpliwości. To mianowicie, że państwo polskie jest znacznie starsze, niż mniemają ci, co historię jego chcą rachować dopiero od chwili chrztu.
+                       <span>Paweł Jasienica - Polska Piastów</span></h4>
                     <div className="hide" onClick={() => window.history.back()}><span>X</span></div>
                 </div>
                 <div className="content">
